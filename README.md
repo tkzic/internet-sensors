@@ -2,9 +2,9 @@ internet-sensors
 README.md
 March 8, 2013
 
-Note: A web version of this document - with clickable links and pictures can be found at: http://zerokidz.com/ideas/?p=5859
+A web version of this document (with pictures) can be found at: http://zerokidz.com/ideas/?p=5859
 
-///////////////////////////////////////////////////////////////
+///
 
 This is a series of projects that demonstrate ways to use Internet API's for interactive media projects.
 
@@ -16,8 +16,11 @@ Some of the projects require you to get passwords and API-keys from providers. F
 
 The API's used in the projects change fairly often. So there's no guarantee they'll work. If you find problems or have ideas - please post to them to the github repository. Or email me at tkzic@megalink.net with "Internet sensor projects" somewhere in the subject heading.
 
-////////////////////////////////////////////////////////////////
+///
+
 Projects:
+
+///
 
 Twitter streaming API in Max (FM, php, curl, geocoding, [aka.speech], Soundflower, Morse code, OSC, data recorder)
 
