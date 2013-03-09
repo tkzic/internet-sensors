@@ -4,23 +4,34 @@ March 8, 2013
 
 A web version of this document (with pictures) can be found at: http://zerokidz.com/ideas/?p=5859
 
-///
+---
+overview
 
 This is a series of projects that demonstrate ways to use Internet API's for interactive media projects.
 
 Projects have been tested on Mac OS 10.7 (Lion). All but one of the projects use Max/MSP 6.1.0 from: http://cycling74.com. The other project uses Pure Data 0.42.5 (extended) from: http://puredata.info. Other required programs are listed in the documentation for individual projects.
 
-The links for the projects below include operating instructions. All the patches, source code, and data can be downloaded from the github repository: https://github.com/tkzic/internet-sensors
+---
+downloads:
+
+The links for the projects below include operating instructions. All the patches, source code, and data can be downloaded from the github repository:
+
+ https://github.com/tkzic/internet-sensors
+
+---
+authorization:
 
 Some of the projects require you to get passwords and API-keys from providers. For example, you'll need a Twitter account, to run the 'Twitter streaming API in Max' project. For these projects you'll need to modify the patches/source code with your user information - as directed.
 
+---
+help:
+
 The API's used in the projects change fairly often. So there's no guarantee they'll work. If you find problems or have ideas - please post to them to the github repository. Or email me at tkzic@megalink.net with "Internet sensor projects" somewhere in the subject heading.
 
-///
-
+---
 Projects:
 
-///
+---
 
 Twitter streaming API in Max (FM, php, curl, geocoding, [aka.speech], Soundflower, Morse code, OSC, data recorder)
 
