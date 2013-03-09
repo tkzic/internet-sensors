@@ -21,7 +21,7 @@ The links for the projects below include operating instructions. All the patches
 ---
 authorization:
 
-Some of the projects require you to get passwords and API-keys from providers. For example, you'll need a Twitter account, to run the 'Twitter streaming API in Max' project. For these projects you'll need to modify the patches/source code with your user information - as directed.
+Some of the projects require you to get passwords and API-keys from providers. For example, you'll need a Twitter account, to run the 'Twitter streaming API in Max' project. For projects which need authorization you'll need to modify the patches/source code with your user information - as directed - or they just won't work.
 
 ---
 help:
