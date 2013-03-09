@@ -5,7 +5,7 @@ March 8, 2013
 A web version of this document (with pictures) can be found at: http://zerokidz.com/ideas/?p=5859
 
 ---
-overview
+overview:
 
 This is a series of projects that demonstrate ways to use Internet API's for interactive media projects.
 
@@ -37,49 +37,49 @@ Twitter streaming API in Max (FM, php, curl, geocoding, [aka.speech], Soundflowe
 
 http://zerokidz.com/ideas/?p=5786
 
-///
+//
 
 Sending tweets from Max using curl ([sprintf], [aka.shell], cosm API, JSON, javascript Twitter API)
 
 http://zerokidz.com/ideas/?p=5447
 
-///
+//
  
 Sending tweets from Max using ruby (cosm API, JSON, javascript Twitter API, OSC)
 
 http://zerokidz.com/ideas/?p=5818
 
-///
+//
 
 Sending tweets from Max using speech (Google speech API, JSON, javascript, sox, cosm API, Twitter API)
 
 http://zerokidz.com/ideas/?p=4690
 
-///
+//
 
 A conversation with a robot in Max (Google speech API, sox, JSON,  pandorabots API, python, [aka.speech]
 
 http://zerokidz.com/ideas/?p=4710
 
-///
+//
 
 Playing bird calls in Max (xenon-canto API, [jit.uldl], [jit.qt.movie])
 
 http://zerokidz.com/ideas/?p=4225
 
-///
+//
 
 Soundcloud API in Max (JSON, javascript, curl, [aka.shell], [jit.qt.movie])
 
 http://zerokidz.com/ideas/?p=5413
 
-///
+//
 
 Real time train map using Max and node.js (XML, JSON, OSC, data recorder, web sockets, Irish Rail API)
 
 http://zerokidz.com/ideas/?p=5477
 
-///
+//
 
 playing stock market music with Max (OSC, netcat,  php, mysql, html, javascript, Yahoo API, linux)
 
@@ -87,17 +87,17 @@ playing stock market music with Max (OSC, netcat,  php, mysql, html, javascript,
 
 http://zerokidz.com/ideas/?p=5499
 
-///
+//
 
 Using wind forecast data to drive wind sounds in Pure Data (ruby, OSC, JSON, CORDC API, "Designing Sound" by Andy Farnell)
 
 http://zerokidz.com/ideas/?p=5846
 
-///
+//
 
 Using ping times to control oscilators in Max (Mashape ping-uin API, ruby, OSC, JSON)
 
 http://zerokidz.com/ideas/?p=5945
 
-///
+
 
