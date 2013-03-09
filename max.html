@@ -1,0 +1,62 @@
+ <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Max Irish Train page</title>
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+// don't change the path in the above line or you will have a bad bad day
+// The reason is explained all over the Internet, so there
+
+
+//  so this program only worked on localhost until i changed the
+//  following line. now it works from other hosts on the local network anyway
+//
+//  the following type of url's work (note make sure to restart server when testing)
+//
+
+//  192.168.1.10:8124	(private)
+//  999.999.999.999:8124 (actual)
+//  zerokidz.com:8124 (DNS)
+//
+//
+//  didn't work with zerokidz.com/nodejs
+//  which is the reverse proxy thing
+//  but this may be an apache2 issue
+//
+// note: if you want to run this program on something other than localhost, then put in the ip
+// address of the server here, instead of local host... or you will go crazy
+
+     var socket = io.connect('http://localhost:8124');
+//
+//   var socket = io.connect('http://192.168.1.10:8124');
+
+// on connect, display friendly prompt and get the user's name
+    socket.on('connect', function() {
+        socket.emit('addme', prompt('Welcome to the world of Irish trains. From this console you can enter descriptive map points in the format: Kildare 53.1569 -6.9090. But first, please enter your name so we know what to call you?'));
+     });
+
+// ok - I admit it, this was stolen from a chat server
+     socket.on('chat',function(username, data) {
+       var p = document.createElement('p');
+       p.innerHTML = username + ':  ' + data;
+       document.getElementById('output').appendChild(p);
+     });
+     window.addEventListener('load',function() {
+        document.getElementById('sendtext').addEventListener('click',
+            function() {
+               var text = document.getElementById('data').value;
+               socket.emit('sendchat', text);
+            }, false);
+      }, false);
+</script>
+</head>
+<body>
+<div id="output"></div>
+<div id="send">
+  <input type="text" id="data" size="100" /><br />
+  <input type="button" id="sendtext" value="Send Text" />
+</div>
+</body>
+</html>
+
