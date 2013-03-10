@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 69.0, 1088.0, 564.0 ],
+		"rect" : [ 24.0, 44.0, 1088.0, 564.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -699,7 +699,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 259.5, 148.0, 62.0, 20.0 ],
-					"text" : "clip 0. 4.5"
+					"text" : "clip 0. 10."
 				}
 
 			}
@@ -12273,7 +12273,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 99.0, 323.0, 153.0, 18.0 ],
-					"text" : "/xping 1 google.com"
+					"text" : "/xping 11 google.be"
 				}
 
 			}
@@ -12326,7 +12326,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 223.0, 55.0, 129.0, 20.0 ],
-					"text" : "/time 1 8.354"
+					"text" : "/time 10 8.309"
 				}
 
 			}
