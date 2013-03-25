@@ -1,6 +1,9 @@
 internet-sensors
 README.md
-March 8, 2013
+March 24, 2013
+
+[note]: the wind forecast API from http://cordc.ucsd.edu appears to be broken. There's no data. I'm looking
+for an alternate (free) source of the same information - or another way to get the CORDC data. 
 
 A web version of this document (with pictures) can be found at: http://zerokidz.com/ideas/?p=5859
 
