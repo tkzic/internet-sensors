@@ -1,11 +1,23 @@
 internet-sensors
 README.md
-March 24, 2013
-
-[note]: the wind forecast API from http://cordc.ucsd.edu appears to be broken. There's no data. I'm looking
-for an alternate (free) source of the same information - or another way to get the CORDC data. 
+March 25, 2013
 
 A web version of this document (with pictures) can be found at: http://zerokidz.com/ideas/?p=5859
+
+---
+
+[note]: the wind forecast API from http://cordc.ucsd.edu appears to be broken. There's no data. As a 
+workaround, I have written a new pd patch and ruby script to use data from http://openweathermap.org (OWM) -
+So... until I get a chance to write up documentation, please make the following substitutions when
+running the 'wind' project:
+
+wind-open-forecast.rb replaces: wind-forecast.rb
+wind-open-machine.pd replaces: wind-machine.pd
+
+The API's are different - OWM gives a 7 day forecast with fewer data points, but it has worldwide data,
+more weather params, and after some tweaks... Actually the gust data sounds cool. And it defaults to 
+Rumford, Maine when you start the server. 
+
 
 ---
 overview:
