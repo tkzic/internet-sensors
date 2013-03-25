@@ -12,6 +12,7 @@ So... until I get a chance to write up documentation, please make the following 
 running the 'wind' project:
 
 wind-open-forecast.rb replaces: wind-forecast.rb
+
 wind-open-machine.pd replaces: wind-machine.pd
 
 The API's are different - OWM gives a 7 day forecast with fewer data points, but it has worldwide data,
