@@ -1,8 +1,14 @@
 internet-sensors
 README.md
-March 25, 2013
+September 2, 2013
 
 A web version of this document (with pictures) can be found at: http://zerokidz.com/ideas/?p=5859
+
+
+---
+
+[note]: Surprise! Any of the projects which use Twitter are now broken, due to requirement for Oauth and some changes to the Twitter API version 1.1, and changes to cosm.com (now xively.com) - I have fixed the problems and will be uploading revised documentation and code in the next few days.
+
 
 ---
 
