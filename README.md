@@ -7,7 +7,7 @@ A web version of this document (with pictures) can be found at: http://zerokidz.
 
 ---
 
-[note]: Surprise! Any of the projects which use Twitter are now broken, due to requirement for Oauth and some changes to the Twitter API version 1.1, and changes to cosm.com (now xively.com) - I have fixed the problems and will be uploading revised documentation and code in the next few days.
+[note]: Surprise! Any of the projects which used Twitter were now broken in June 2013, due to requirement for Oauth and some changes to the Twitter API version 1.1, and changes to cosm.com (now xively.com) - I have fixed the programs and revised documentation. 9/2/2013. For sending Tweets you'll need to adjust your xively.com triggers using zapier.com. For streaming Tweets there is new php code and you'll need to set up a Twitter App under your account - but this is all in the revised documentation at the link above.
 
 
 ---
