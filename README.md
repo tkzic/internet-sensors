@@ -1,13 +1,17 @@
 internet-sensors
 README.md
-September 2, 2013
+September 8, 2013
 
 A web version of this document (with pictures) can be found at: http://zerokidz.com/ideas/?p=5859
 
+---
+
+[note 9/8/2013]: 
+Yet another change for Twitter. In the Max patch which sends Tweets using a ruby server, you no longer need to use xively.com and zapier.com but you do need to set up a Twitter app to get the oauth authentication strings for the ruby program. Instructions are at: http://zerokidz.com/ideas/?p=7013 - I think this is useful because its faster, more direct, and free!
 
 ---
 
-[note]: Surprise! Any of the projects which used Twitter were now broken in June 2013, due to requirement for Oauth and some changes to the Twitter API version 1.1, and changes to cosm.com (now xively.com) - I have fixed the programs and revised documentation. 9/2/2013. For sending Tweets you'll need to adjust your xively.com triggers using zapier.com. For streaming Tweets there is new php code and you'll need to set up a Twitter App under your account - but this is all in the revised documentation at the link above.
+[note 9/2/2013]: Surprise! Any of the projects which used Twitter were now broken in June 2013, due to requirement for Oauth and some changes to the Twitter API version 1.1, and changes to cosm.com (now xively.com) - I have fixed the programs and revised documentation. 9/2/2013. For sending Tweets you'll need to adjust your xively.com triggers using zapier.com. For streaming Tweets there is new php code and you'll need to set up a Twitter App under your account - but this is all in the revised documentation at the link above.
 
 
 ---
