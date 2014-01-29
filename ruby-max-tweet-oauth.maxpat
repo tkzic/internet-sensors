@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -95,7 +95,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 500.0, 31.5, 314.0, 179.0 ],
-					"text" : "Send Tweets from Max via ruby server  macOS only - uses oauth - 9/7/2013 \n--------------------------------------------------------\n1. Edit Twitter app registered credentials in the server program: max-ruby-tweet-oauth.rb\n2. Run server from command line:\n# ruby ./max-ruby-tweet-oauth.rb\n3. Run this patch\n\npart of the internetSensors project - see this website: https://github.com/tkzic/internet-sensors"
+					"text" : "Send Tweets from Max via ruby server  macOS only - uses oauth - 9/7/2013 \n--------------------------------------------------------\n1. Edit Twitter app registered credentials in the server program: max-ruby-tweet-oauth2.rb\n2. Run server from command line:\n# ruby ./max-ruby-tweet-oauth2.rb\n3. Run this patch\n\npart of the internetSensors project - see this website: https://github.com/tkzic/internet-sensors"
 				}
 
 			}
@@ -136,7 +136,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 122.673401, 31.5, 226.0, 47.0 ],
-					"text" : "1. run the server in a terminal window: \n\n# ./ruby-max-tweet-oauth.rb"
+					"text" : "1. run the server in a terminal window: \n\n# ./ruby-max-tweet-oauth2.rb"
 				}
 
 			}
