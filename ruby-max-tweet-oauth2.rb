@@ -62,6 +62,9 @@ end
   puts "#{message.ip_address}:#{message.ip_port} -- #{message.address} -- #{message.to_a}"   # for debugging to console
 
   tweetText = "#{message.to_a}"
+  tweetText = tweetText[2..(tweetText.length - 3)]  # strip out brackets and quotes from Max
+  
+  
   begin
     # send the tweet
     # tweet = Twitter.update(tweetText)
