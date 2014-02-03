@@ -1,8 +1,14 @@
 internet-sensors
 README.md
-September 8, 2013
+February 2, 2014
 
 A web version of this document (with pictures) can be found at: http://zerokidz.com/ideas/?p=5859
+
+---
+
+[note 2/2/2014]: 
+1) Complete revision of streaming Max Twitter project.
+2) Added new project: segment analysis player that sonifies echonest audio analysis data.
 
 ---
 
