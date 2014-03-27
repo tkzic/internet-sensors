@@ -245,7 +245,8 @@ class ctwitter_stream
 	// ********** this is the mod for max/msp ****************
     // process a tweet object from the stream
     //
-    private function process_tweet(array $_data)
+    //	private function process_tweet(array $_data)  // tz: 3/2104 this declaration caused runtime type error
+	private function process_tweet($_data)
     {
 
 //        print_r($_data);
@@ -262,6 +263,8 @@ class ctwitter_stream
     //
 	public function start($_keywords = array(), $_coordinates = array(), $count = 0)
 	{
+		
+		// $data = array();
 			
 		if(!is_array($_keywords))
 			{
