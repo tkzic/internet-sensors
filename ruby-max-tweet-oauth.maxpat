@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 50.0, 94.0, 854.0, 520.0 ],
+		"rect" : [ 53.0, 314.0, 840.0, 365.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,7 +36,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 371.0, 115.0, 111.0, 20.0 ],
+					"patching_rect" : [ 370.0, 97.0, 111.0, 20.0 ],
 					"text" : "receive send-tweet"
 				}
 
@@ -47,11 +47,11 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-16",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 443.0, 460.0, 150.0, 33.0 ],
+					"patching_rect" : [ 719.0, 243.5, 94.0, 47.0 ],
 					"text" : "this is the tweet id or an error response"
 				}
 
@@ -65,7 +65,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 371.0, 219.0, 34.0, 20.0 ],
+					"patching_rect" : [ 370.0, 201.0, 34.0, 20.0 ],
 					"text" : "t b b"
 				}
 
@@ -79,7 +79,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 43.173401, 303.0, 528.0, 18.0 ],
+					"patching_rect" : [ 42.173401, 285.0, 528.0, 18.0 ],
 					"text" : "/tweet \"chewbacca says why not get some sleep\""
 				}
 
@@ -94,7 +94,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 500.0, 31.5, 314.0, 179.0 ],
+					"patching_rect" : [ 499.0, 17.5, 314.0, 179.0 ],
 					"text" : "Send Tweets from Max via ruby server  macOS only - uses oauth - 9/7/2013 \n--------------------------------------------------------\n1. Edit Twitter app registered credentials in the server program: max-ruby-tweet-oauth2.rb\n2. Run server from command line:\n# ruby ./max-ruby-tweet-oauth2.rb\n3. Run this patch\n\npart of the internetSensors project - see this website: https://github.com/tkzic/internet-sensors"
 				}
 
@@ -106,7 +106,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 17.0, 420.0, 20.0, 20.0 ]
+					"patching_rect" : [ 584.0, 280.5, 20.0, 20.0 ]
 				}
 
 			}
@@ -119,7 +119,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 43.173401, 266.0, 90.0, 20.0 ],
+					"patching_rect" : [ 42.173401, 248.0, 90.0, 20.0 ],
 					"text" : "prepend /tweet"
 				}
 
@@ -135,7 +135,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 122.673401, 31.5, 226.0, 47.0 ],
+					"patching_rect" : [ 121.673401, 17.5, 226.0, 47.0 ],
 					"text" : "1. run the server in a terminal window: \n\n# ./ruby-max-tweet-oauth2.rb"
 				}
 
@@ -150,7 +150,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 43.173401, 420.0, 94.0, 20.0 ],
+					"patching_rect" : [ 610.173401, 280.5, 94.0, 20.0 ],
 					"text" : "route /response"
 				}
 
@@ -161,11 +161,11 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-14",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 194.0, 333.0, 160.0, 47.0 ],
+					"patching_rect" : [ 193.0, 315.0, 235.173401, 33.0 ],
 					"text" : "communicates with a ruby server script called ruby-max-tweet.rb"
 				}
 
@@ -177,7 +177,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 17.0, 383.0, 20.0, 20.0 ]
+					"patching_rect" : [ 584.0, 243.5, 20.0, 20.0 ]
 				}
 
 			}
@@ -191,7 +191,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 43.173401, 462.0, 386.0, 18.0 ],
+					"patching_rect" : [ 610.173401, 322.5, 202.826599, 18.0 ],
 					"text" : ":374802828243763200"
 				}
 
@@ -204,7 +204,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 43.173401, 333.0, 137.0, 20.0 ],
+					"patching_rect" : [ 42.173401, 315.0, 137.0, 20.0 ],
 					"text" : "udpsend localhost 3332"
 				}
 
@@ -218,7 +218,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 43.173401, 383.0, 99.0, 20.0 ],
+					"patching_rect" : [ 610.173401, 243.5, 99.0, 20.0 ],
 					"text" : "udpreceive 3333"
 				}
 
@@ -232,7 +232,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 58.0, 74.0, 20.0 ],
+					"patching_rect" : [ 14.0, 44.0, 74.0, 20.0 ],
 					"text" : "prepend set"
 				}
 
@@ -246,7 +246,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 31.5, 105.0, 20.0 ],
+					"patching_rect" : [ 14.0, 17.5, 105.0, 20.0 ],
 					"text" : "receive tweet-text"
 				}
 
@@ -262,7 +262,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 371.0, 45.5, 75.0, 60.0 ],
+					"patching_rect" : [ 370.0, 17.5, 75.0, 60.0 ],
 					"text" : "3. press green button to send tweet"
 				}
 
@@ -277,7 +277,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 91.0, 115.0, 139.0, 20.0 ],
+					"patching_rect" : [ 90.0, 97.0, 139.0, 20.0 ],
 					"text" : "2. compose a tweet"
 				}
 
@@ -291,7 +291,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 43.173401, 233.0, 59.0, 20.0 ],
+					"patching_rect" : [ 42.173401, 215.0, 59.0, 20.0 ],
 					"text" : "tosymbol"
 				}
 
@@ -305,7 +305,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 43.173401, 204.0, 61.0, 20.0 ],
+					"patching_rect" : [ 42.173401, 186.0, 61.0, 20.0 ],
 					"text" : "route text"
 				}
 
@@ -319,7 +319,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 43.173401, 115.0, 37.0, 18.0 ],
+					"patching_rect" : [ 42.173401, 97.0, 37.0, 18.0 ],
 					"text" : "clear"
 				}
 
@@ -332,7 +332,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 371.0, 145.0, 64.0, 64.0 ]
+					"patching_rect" : [ 370.0, 127.0, 64.0, 64.0 ]
 				}
 
 			}
@@ -348,7 +348,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 43.173401, 145.0, 319.0, 49.0 ],
+					"patching_rect" : [ 42.173401, 127.0, 319.0, 49.0 ],
 					"tabmode" : 0,
 					"text" : "feeling a bit orange today"
 				}

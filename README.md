@@ -1,8 +1,17 @@
 internet-sensors
 README.md
-February 2, 2014
+March 26, 2014
 
 A web version of this document (with pictures) can be found at: http://zerokidz.com/ideas/?p=5859
+
+---
+
+[note 3/26/2014]: 
+1) Complete revision of chatbot conversation project - cleaned up UI, added auto record feature
+2) Fixed minor bugs in streaming Max twitter php code
+3) updated google text to speech api program (also does auto record)
+4) NOTE: still need to update documentation for the auto record / chatbot projects
+
 
 ---
 
