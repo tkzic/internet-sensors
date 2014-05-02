@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -28,6 +28,35 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-138",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 623.5, 226.75, 112.0, 33.0 ],
+					"text" : "this delay prevents blocking"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-112",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 623.5, 203.5, 43.0, 20.0 ],
+					"text" : "del 10"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -514,7 +543,7 @@
 					"patching_rect" : [ 235.0, 339.5, 77.25, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 782.5, 117.5, 62.0, 18.0 ],
-					"text" : "0.963224"
+					"text" : "0.949836"
 				}
 
 			}
@@ -530,7 +559,7 @@
 					"patching_rect" : [ 179.5, 310.5, 37.5, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 676.5, 117.5, 37.5, 18.0 ],
-					"text" : "0"
+					"text" : "5"
 				}
 
 			}
@@ -817,7 +846,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -840,6 +869,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1176,7 +1206,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 445.0, 425.0, 104.0, 18.0 ],
-									"text" : "0.963224"
+									"text" : "0.949836"
 								}
 
 							}
@@ -1205,7 +1235,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 369.0, 425.0, 50.0, 18.0 ],
-									"text" : "0"
+									"text" : "5"
 								}
 
 							}
@@ -1264,7 +1294,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 296.5, 245.428589, 601.0, 47.0 ],
-									"text" : "sprintf curl -v --data-binary @/tmp/tweet.flac --header \\\\\\\"Content-type: audio/x-flac\\\\\\; rate=16000\\\\\\\" \\\\\\\"https://www.google.com/speech-api/v1/recognize?xjerr=1&client=chromium&pfilter=2&lang=en-US&maxresults=6\\\\\\\" -o/tmp/speech.json 2>&1"
+									"text" : "sprintf curl -v --data-binary @/tmp/tweet.flac --header \\\\\\\"Content-type: audio/x-flac\\\\\\; rate=16000\\\\\\\" \\\\\\\"https://www.google.com/speech-api/v1/recognize?xjerr=1&client=chromium&pfilter=2&lang=en-US&maxresults=6\\\\\\\" -o/tmp/speech.json 2>&1 &"
 								}
 
 							}
@@ -1849,7 +1879,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -1882,7 +1912,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 156.5, 456.0, 417.0, 18.0 ],
-									"text" : "\"Hi there! What is your name?\""
+									"text" : "jsobject 0"
 								}
 
 							}
@@ -1896,7 +1926,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 200.5, 101.0, 417.0, 18.0 ],
-									"text" : "hello"
+									"text" : "-"
 								}
 
 							}
@@ -1971,7 +2001,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 571.0, 378.071472, 115.0, 18.0 ],
-									"text" : "f30589e7dee08521"
+									"text" : "fc3f21cb0f351834"
 								}
 
 							}
@@ -2728,8 +2758,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 146.0, 606.25, 272.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.0, 509.25, 944.5, 22.0 ],
-					"text" : "hello"
+					"presentation_rect" : [ 41.0, 509.25, 944.5, 22.0 ]
 				}
 
 			}
@@ -3144,7 +3173,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -3700,7 +3729,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -4085,7 +4114,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -6215,8 +6244,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 760.5, 582.928589, 153.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 746.0, 361.75, 167.0, 20.0 ],
-					"text" : "f30589e7dee08521"
+					"presentation_rect" : [ 746.0, 361.75, 167.0, 20.0 ]
 				}
 
 			}
@@ -6232,8 +6260,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 461.5, 538.25, 285.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.0, 572.0, 944.5, 22.0 ],
-					"text" : "\"Hi there! What is your name?\""
+					"presentation_rect" : [ 41.0, 572.0, 944.5, 22.0 ]
 				}
 
 			}
@@ -6321,6 +6348,15 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-112", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -6334,15 +6370,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-67", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-1", 4 ]
 				}
 
 			}
@@ -6460,6 +6487,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-67", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-112", 0 ]
 				}
 
 			}

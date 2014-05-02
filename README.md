@@ -1,8 +1,16 @@
 internet-sensors
 README.md
-March 26, 2014
+May 1, 2014
 
 A web version of this document (with pictures) can be found at: http://zerokidz.com/ideas/?p=5859
+
+---
+
+[note 5/1/2014]: 
+1) Fixed ‘blocking’ in google speech and chatbot apps when togging voice record
+2) added missing file autorecord-buffer2.maxpat
+3) NOTE: still need to update documentation for the auto record / chatbot projects
+
 
 ---
 
