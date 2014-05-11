@@ -339,7 +339,7 @@
 					"patching_rect" : [ 235.0, 339.5, 77.25, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 782.5, 117.5, 62.0, 18.0 ],
-					"text" : "0.952282"
+					"text" : "0.973352"
 				}
 
 			}
@@ -623,7 +623,7 @@
 					"patching_rect" : [ 198.0, 364.5, 310.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 675.5, 150.25, 310.0, 19.0 ],
-					"text" : "\"who are you\""
+					"text" : "\"where are we\""
 				}
 
 			}
@@ -665,7 +665,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1002,7 +1001,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 445.0, 425.0, 104.0, 18.0 ],
-									"text" : "0.952282"
+									"text" : "0.973352"
 								}
 
 							}
@@ -1017,7 +1016,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 592.5, 375.0, 604.0, 22.0 ],
-									"text" : "\"who are you\""
+									"text" : "\"where are we\""
 								}
 
 							}
