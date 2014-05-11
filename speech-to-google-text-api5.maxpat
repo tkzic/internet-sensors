@@ -339,7 +339,7 @@
 					"patching_rect" : [ 235.0, 339.5, 77.25, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 782.5, 117.5, 62.0, 18.0 ],
-					"text" : "0.973352"
+					"text" : "0.952282"
 				}
 
 			}
@@ -355,7 +355,7 @@
 					"patching_rect" : [ 179.5, 310.5, 37.5, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 676.5, 117.5, 37.5, 18.0 ],
-					"text" : "0"
+					"text" : "\"0\""
 				}
 
 			}
@@ -623,7 +623,7 @@
 					"patching_rect" : [ 198.0, 364.5, 310.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 675.5, 150.25, 310.0, 19.0 ],
-					"text" : "hello"
+					"text" : "\"who are you\""
 				}
 
 			}
@@ -665,6 +665,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1001,7 +1002,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 445.0, 425.0, 104.0, 18.0 ],
-									"text" : "0.973352"
+									"text" : "0.952282"
 								}
 
 							}
@@ -1016,7 +1017,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 592.5, 375.0, 604.0, 22.0 ],
-									"text" : "hello"
+									"text" : "\"who are you\""
 								}
 
 							}
@@ -1030,7 +1031,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 369.0, 425.0, 50.0, 18.0 ],
-									"text" : "0"
+									"text" : "\"0\""
 								}
 
 							}
@@ -1089,7 +1090,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 296.5, 245.428589, 601.0, 47.0 ],
-									"text" : "sprintf curl -v --data-binary @/tmp/tweet.flac --header \\\\\\\"Content-type: audio/x-flac\\\\\\; rate=16000\\\\\\\" \\\\\\\"https://www.google.com/speech-api/v1/recognize?xjerr=1&client=chromium&pfilter=2&lang=en-US&maxresults=6\\\\\\\" -o/tmp/speech.json 2>&1"
+									"text" : "sprintf curl -v --data-binary @/tmp/tweet.flac --header \\\\\\\"Content-type: audio/x-flac\\\\\\; rate=16000\\\\\\\" \\\\\\\"https://www.google.com/speech-api/v2/recognize?xjerr=1&client=chromium&pfilter=0&lang=en-US&maxresults=6&key=AIzaSyCnl6MRydhw_5fLXIdASxkLJzcJh5iX0M4\\\\\\\" -o/tmp/speech.json 2>&1"
 								}
 
 							}

@@ -261,13 +261,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-25",
-					"linecount" : 2,
+					"linecount" : 7,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 538.0, 340.0, 24.0, 31.0 ],
-					"text" : "hello"
+					"text" : "\"I am happy to\""
 				}
 
 			}
@@ -543,7 +543,7 @@
 					"patching_rect" : [ 235.0, 339.5, 77.25, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 782.5, 117.5, 62.0, 18.0 ],
-					"text" : "0.949836"
+					"text" : "0.762263"
 				}
 
 			}
@@ -559,7 +559,7 @@
 					"patching_rect" : [ 179.5, 310.5, 37.5, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 676.5, 117.5, 37.5, 18.0 ],
-					"text" : "5"
+					"text" : "\"0\""
 				}
 
 			}
@@ -827,7 +827,7 @@
 					"patching_rect" : [ 198.0, 364.5, 310.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 675.5, 150.25, 310.0, 19.0 ],
-					"text" : "hello"
+					"text" : "\"I am happy to\""
 				}
 
 			}
@@ -869,7 +869,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1206,7 +1205,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 445.0, 425.0, 104.0, 18.0 ],
-									"text" : "0.949836"
+									"text" : "0.762263"
 								}
 
 							}
@@ -1221,7 +1220,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 592.5, 375.0, 604.0, 22.0 ],
-									"text" : "hello"
+									"text" : "\"I am happy to\""
 								}
 
 							}
@@ -1235,7 +1234,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 369.0, 425.0, 50.0, 18.0 ],
-									"text" : "5"
+									"text" : "\"0\""
 								}
 
 							}
@@ -1294,7 +1293,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 296.5, 245.428589, 601.0, 47.0 ],
-									"text" : "sprintf curl -v --data-binary @/tmp/tweet.flac --header \\\\\\\"Content-type: audio/x-flac\\\\\\; rate=16000\\\\\\\" \\\\\\\"https://www.google.com/speech-api/v1/recognize?xjerr=1&client=chromium&pfilter=2&lang=en-US&maxresults=6\\\\\\\" -o/tmp/speech.json 2>&1 &"
+									"text" : "sprintf curl -v --data-binary @/tmp/tweet.flac --header \\\\\\\"Content-type: audio/x-flac\\\\\\; rate=16000\\\\\\\" \\\\\\\"https://www.google.com/speech-api/v2/recognize?xjerr=1&client=chromium&pfilter=0&lang=en-US&maxresults=6&key=AIzaSyCnl6MRydhw_5fLXIdASxkLJzcJh5iX0M4\\\\\\\" -o/tmp/speech.json 2>&1"
 								}
 
 							}
@@ -1912,7 +1911,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 156.5, 456.0, 417.0, 18.0 ],
-									"text" : "jsobject 0"
+									"text" : "\" I am glad that you are happy.\""
 								}
 
 							}
@@ -1926,7 +1925,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 200.5, 101.0, 417.0, 18.0 ],
-									"text" : "-"
+									"text" : "\"I am happy to\""
 								}
 
 							}
@@ -2001,7 +2000,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 571.0, 378.071472, 115.0, 18.0 ],
-									"text" : "fc3f21cb0f351834"
+									"text" : "86f22ce61f31af00"
 								}
 
 							}
@@ -2758,7 +2757,8 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 146.0, 606.25, 272.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.0, 509.25, 944.5, 22.0 ]
+					"presentation_rect" : [ 41.0, 509.25, 944.5, 22.0 ],
+					"text" : "\"I am happy to\""
 				}
 
 			}
@@ -6244,7 +6244,8 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 760.5, 582.928589, 153.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 746.0, 361.75, 167.0, 20.0 ]
+					"presentation_rect" : [ 746.0, 361.75, 167.0, 20.0 ],
+					"text" : "86f22ce61f31af00"
 				}
 
 			}
@@ -6260,7 +6261,8 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 461.5, 538.25, 285.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.0, 572.0, 944.5, 22.0 ]
+					"presentation_rect" : [ 41.0, 572.0, 944.5, 22.0 ],
+					"text" : "\" I am glad that you are happy.\""
 				}
 
 			}
