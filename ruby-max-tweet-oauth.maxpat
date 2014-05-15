@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -51,7 +51,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 719.0, 243.5, 94.0, 47.0 ],
+					"patching_rect" : [ 719.0, 243.5, 95.0, 47.0 ],
 					"text" : "this is the tweet id or an error response"
 				}
 
@@ -80,7 +80,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 42.173401, 285.0, 528.0, 18.0 ],
-					"text" : "/tweet \"chewbacca says why not get some sleep\""
+					"text" : "/tweet \"hello there\""
 				}
 
 			}
@@ -95,7 +95,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 499.0, 17.5, 314.0, 179.0 ],
-					"text" : "Send Tweets from Max via ruby server  macOS only - uses oauth - 9/7/2013 \n--------------------------------------------------------\n1. Edit Twitter app registered credentials in the server program: max-ruby-tweet-oauth2.rb\n2. Run server from command line:\n# ruby ./max-ruby-tweet-oauth2.rb\n3. Run this patch\n\npart of the internetSensors project - see this website: https://github.com/tkzic/internet-sensors"
+					"text" : "Send Tweets from Max via ruby server  macOS only - uses oauth - 9/7/2013 \n--------------------------------------------------------\n1. Edit Twitter app registered credentials in the server program: max-ruby-tweet-oauth2.rb\n2. Run server from command line:\n# ruby ./ruby-max-tweet-oauth2.rb\n3. Run this patch\n\npart of the internetSensors project - see this website: https://github.com/tkzic/internet-sensors"
 				}
 
 			}
@@ -192,7 +192,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 610.173401, 322.5, 202.826599, 18.0 ],
-					"text" : ":374802828243763200"
+					"text" : ":466790601246380032"
 				}
 
 			}
@@ -350,7 +350,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 42.173401, 127.0, 319.0, 49.0 ],
 					"tabmode" : 0,
-					"text" : "feeling a bit orange today"
+					"text" : "hello there"
 				}
 
 			}
