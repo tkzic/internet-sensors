@@ -1,6 +1,6 @@
 internet-sensors projects
 README.md
-May 16, 2014 (added Google Maps project)
+May 16, 2014 (added Google Maps project and data recorder)
 
 A web version of this document (with pictures) can be found at: http://zerokidz.com/ideas/?p=5859
 
@@ -47,6 +47,7 @@ Using ping times to control oscilators in Max
 Echo Nest segment analysis player 
 Flying a Quadcopter AR_Drone with Max
 Adding Markers to Google Maps in Max
+Max data recorder
 
 *Use a Fisher Price Little Tikes piano
 
@@ -56,6 +57,7 @@ Adding Markers to Google Maps in Max
 [note 5/16/2014]: 
 1) Added Google Maps
 2) Added Little Tikes piano
+3) Added data recorder
 
 ---
 
