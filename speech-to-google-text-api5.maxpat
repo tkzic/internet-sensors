@@ -1089,7 +1089,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 296.5, 245.428589, 601.0, 47.0 ],
-									"text" : "sprintf curl -v --data-binary @/tmp/tweet.flac --header \\\\\\\"Content-type: audio/x-flac\\\\\\; rate=16000\\\\\\\" \\\\\\\"https://www.google.com/speech-api/v2/recognize?xjerr=1&client=chromium&pfilter=0&lang=en-US&maxresults=6&key=AIzaSyCnl6MRydhw_5fLXIdASxkLJzcJh5iX0M4\\\\\\\" -o/tmp/speech.json 2>&1"
+									"text" : "sprintf curl -v --data-binary @/tmp/tweet.flac --header \\\\\\\"Content-type: audio/x-flac\\\\\\; rate=16000\\\\\\\" \\\\\\\"https://www.google.com/speech-api/v2/recognize?xjerr=1&client=chromium&pfilter=0&lang=en-US&maxresults=6&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw\\\\\\\" -o/tmp/speech.json 2>&1"
 								}
 
 							}
