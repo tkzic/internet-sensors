@@ -1,6 +1,6 @@
 internet-sensors projects
 README.md
-May 13, 2014 (added AR_drone quadcopter project)
+May 16, 2014 (added Google Maps project)
 
 A web version of this document (with pictures) can be found at: http://zerokidz.com/ideas/?p=5859
 
@@ -35,7 +35,7 @@ Projects: For up to date list and links see: http://zerokidz.com/ideas/?p=5859
 
 Twitter streaming API in Max
 Sending tweets from Max using curl
-Sending tweets from Max using ruby 
+Sending tweets from Max using ruby*
 Sending tweets from Max using speech 
 A conversation with a robot in Max 
 Playing bird calls in Max 
@@ -46,7 +46,16 @@ Using wind forecast data to drive wind sounds in Pure Data
 Using ping times to control oscilators in Max
 Echo Nest segment analysis player 
 Flying a Quadcopter AR_Drone with Max
+Adding Markers to Google Maps in Max
 
+*Use a Fisher Price Little Tikes piano
+
+
+---
+
+[note 5/16/2014]: 
+1) Added Google Maps
+2) Added Little Tikes piano
 
 ---
 
