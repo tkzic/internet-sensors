@@ -43,21 +43,23 @@ Soundcloud API in Max
 Real time train map using Max and node.js 
 Playing stock market music with Max ([Note] This project is currently not part of the github archive.)
 Using wind forecast data to drive wind sounds in Pure Data 
-Using ping times to control oscilators in Max
+Using ping times to control oscillators in Max
 Echo Nest segment analysis player 
-Flying a Quadcopter AR_Drone with Max
+Flying a Quad-copter AR_Drone with Max
 Adding Markers to Google Maps in Max
 Max data recorder
+Web Audio Google domain ping machine
 
 *Use a Fisher Price Little Tikes piano
 
 
 ---
 
-[note 5/16/2014]: 
+[note 5/17/2014]: 
 1) Added Google Maps
 2) Added Little Tikes piano
 3) Added data recorder
+4) Added web audio domain ping machine
 
 ---
 
