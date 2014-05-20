@@ -17,7 +17,7 @@
 //
 	$t = new ctwitter_stream();
 //
-	$t->login('ZdzfNxVfBjhQlNFy8OHeOA', 'eXzUOfh9AqU8hAhpRbCTnnSN0T7neYtg8dIWDC7j3bs', '205589709-5kRI1fllJvUNQv3xZhRlwYV9OSn9LrTajtxSrvO8', 'u5MuSxPseBemUIBWlMxEFawYwjlkFL8XA0eHlReCnQ');
+	$t->login('ZdzfNxV34jhQlNFy8OHeOA', 'eXzUOf778AqU8hAhpRbCTnnSN0T7neYtg8dIWDC7j3bs', '205589709-5kRI1fllJvU34v3xZhRlwYV9OSn9LrTajtxSrvO8', 'u5MuSxPseBemU89WlMxEFawYwjlkFL8XA0eHlReCnQ');
 	
 //	$t->login('consumer_key', 'consumer secret', 'access token', 'access secret');
 //
