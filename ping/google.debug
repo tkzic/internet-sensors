@@ -1,0 +1,2090 @@
+* Hostname was NOT found in DNS cache
+*   Trying 107.20.166.5...
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+* successfully set certificate verify locations:
+*   CAfile: /opt/local/share/curl/curl-ca-bundle.crt
+  CApath: none
+* SSL connection using TLSv1.0 / AES256-SHA
+* Server certificate:
+* 	 subject: OU=Domain Control Validated; CN=*.p.mashape.com
+* 	 start date: 2014-04-09 19:15:04 GMT
+* 	 expire date: 2014-11-10 12:01:41 GMT
+* 	 subjectAltName: igor-zachetly-ping-uin.p.mashape.com matched
+* 	 issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+* 	 SSL certificate verify ok.
+> GET /pinguin.php?address=google.com HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:13 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.ac HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:14 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.ad HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:14 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.ae HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:14 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.al HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:15 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.am HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:16 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.as HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:16 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.at HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:16 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.az HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:16 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.ba HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:16 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.be HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:17 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.bf HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:17 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.bg HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:17 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.bi HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:18 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.bj HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:18 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.bs HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:19 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.by HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:19 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.bz HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:19 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.ca HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:19 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.cc HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:19 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.cd HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:20 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.cf HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:20 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.cat HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:20 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.cg HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:20 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.ch HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:21 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.ci HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:21 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.cl HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:21 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.cm HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:21 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.cn HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:22 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 33
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.cv HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:22 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.cz HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:22 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.de HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:22 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.dj HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:22 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.dk HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:23 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.dm HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:23 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.dz HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:23 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.ee HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:24 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.es HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:24 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.fi HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:24 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.fm HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:24 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.fr HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:24 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.com HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:24 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.ac HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:25 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.ad HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:25 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.ae HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:25 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.al HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:25 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 33
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.am HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:25 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.as HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:25 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.at HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:25 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.az HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:25 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.ba HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:26 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.be HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:26 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.bf HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:26 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.bg HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:26 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.bi HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:26 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.bj HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:26 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.bs HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:26 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.by HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:27 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.bz HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:27 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.ca HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:27 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.cc HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:27 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.cd HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:27 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.cf HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:27 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.cat HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:27 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.cg HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:27 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.ch HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:28 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.ci HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:28 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.cl HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:28 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.cm HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:28 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.cn HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:28 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 33
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.cv HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:28 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.cz HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:28 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.de HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:28 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.dj HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:29 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.dk HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:29 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.dm HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:29 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.dz HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:29 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.ee HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:29 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.es HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:29 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.fi HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:29 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.fm HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:29 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.fr HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:30 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.com HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:30 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.ac HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:30 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.ad HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:30 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.ae HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:30 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.al HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:30 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.am HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:30 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.as HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:30 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.at HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:31 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.az HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:31 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.ba HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:31 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.be HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:31 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.bf HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:31 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.bg HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:31 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.bi HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:31 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.bj HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:31 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.bs HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:31 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact
+* Found bundle for host igor-zachetly-ping-uin.p.mashape.com: 0x7f860ad25460
+* Re-using existing connection! (#0) with host igor-zachetly-ping-uin.p.mashape.com
+* Connected to igor-zachetly-ping-uin.p.mashape.com (107.20.166.5) port 443 (#0)
+> GET /pinguin.php?address=google.by HTTP/1.1
+Host: igor-zachetly-ping-uin.p.mashape.com
+Accept: */*
+X-Mashape-Authorization: sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn
+
+< HTTP/1.1 200 OK
+< content-type: application/json
+< date: Tue, 20 May 2014 20:37:32 GMT
+* Server Apache/2.2.22 (Debian) is not blacklisted
+< server: Apache/2.2.22 (Debian)
+< vary: Accept-Encoding
+< X-Mashape-Proxy-Response: false
+< X-Mashape-Version: 3.1.11
+< x-powered-by: PHP/5.4.4-15
+< Content-Length: 32
+< Connection: keep-alive
+< 
+* Connection #0 to host igor-zachetly-ping-uin.p.mashape.com left intact

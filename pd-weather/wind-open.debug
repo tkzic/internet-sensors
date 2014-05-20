@@ -1,0 +1,16 @@
+* Hostname was NOT found in DNS cache
+*   Trying 162.243.44.32...
+* Connected to api.openweathermap.org (162.243.44.32) port 80 (#0)
+> GET /data/2.1/forecast/city/4977125 HTTP/1.1
+Host: api.openweathermap.org
+Accept: */*
+
+< HTTP/1.1 200 OK
+* Server nginx is not blacklisted
+< Server: nginx
+< Date: Tue, 20 May 2014 20:21:55 GMT
+< Content-Type: text/html
+< Transfer-Encoding: chunked
+< Connection: keep-alive
+< 
+* Connection #0 to host api.openweathermap.org left intact
