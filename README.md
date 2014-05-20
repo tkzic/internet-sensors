@@ -1,8 +1,10 @@
 internet-sensors projects
 README.md
-May 16, 2014 (added Google Maps project and data recorder)
+May 19, 2014 (revised twitter streaming project)
 
 A web version of this document (with pictures) can be found at: http://zerokidz.com/ideas/?p=5859
+
+NOTE!!! - This project is undergoing active revision 5/2014 - The projects are being re-tested and moved to separate folders. Because things have gotten out of hand. 
 
 ---
 overview:
