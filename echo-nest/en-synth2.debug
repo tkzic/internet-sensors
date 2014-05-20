@@ -1,0 +1,28 @@
+* Hostname was NOT found in DNS cache
+*   Trying 208.43.117.65...
+* Connected to developer.echonest.com (208.43.117.65) port 80 (#0)
+> GET /api/v4/song/search?api_key=TV2C30KWLCZYVIT9P&format=json&results=1&artist=albert%20ayler&title=witches%20and%20devils&bucket=id:7digital-US&bucket=audio_summary&bucket=tracks HTTP/1.1
+Host: developer.echonest.com
+Accept: */*
+
+< HTTP/1.1 200 OK
+< Date: Tue, 20 May 2014 20:48:27 GMT
+< Content-Type: application/json; charset=utf-8
+< Content-Length: 1306
+< Vary: Accept-Encoding
+< X-Request-Id: abSf43gYT96PGiRf01nYmg
+< Etag: "e2971f6fa78339fbf358fe71e3c3f0a7a45caf08"
+< X-Worker-Node: c6357:24135
+< X-Ratelimit-Remaining: 19
+* Server TornadoServer/3.1 is not blacklisted
+< Server: TornadoServer/3.1
+< X-Ratelimit-Limit: 20
+< X-Api-Key: TV2C30KWLCZYVIT9P
+< Cache-Control: max-age=86400
+< Access-Control-Allow-Origin: *
+< X-Ratelimit-Used: 1
+< Connection: Keep-alive
+< Keep-Alive: timeout=15, max=100
+< Via: 1.1 ID-0000627501223746 uproxy-2
+< 
+* Connection #0 to host developer.echonest.com left intact

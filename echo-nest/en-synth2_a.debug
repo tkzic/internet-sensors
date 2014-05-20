@@ -1,0 +1,20 @@
+* Hostname was NOT found in DNS cache
+*   Trying 176.32.100.195...
+* Connected to echonest-analysis.s3.amazonaws.com (176.32.100.195) port 80 (#1)
+> GET /TR/3T4O7AWJY7dQ13w_6Ql31QmjOqq7-gtqo7tPMO8Ld8S_BKuxHNRLdHwJsNyaXful7ijBNArBvsx-swy14%3D/3/full.json?AWSAccessKeyId=AKIAJRDFEY23UEVW42BQ&Expires=1400619507&Signature=FZAVHut5OUyAVUIh8NANS9%2BC%2BAs%3D HTTP/1.1
+Host: echonest-analysis.s3.amazonaws.com
+Accept: */*
+
+< HTTP/1.1 200 OK
+< x-amz-id-2: MRe7g2G2E74TZBZHlcAlYPc4swyGs9Xn8Y942r0l9V0TKgT+wX054Oc1xzQNBimp
+< x-amz-request-id: F2FAB2F17A9C6949
+< Date: Tue, 20 May 2014 20:48:29 GMT
+< Last-Modified: Tue, 12 Nov 2013 11:13:10 GMT
+< ETag: "abf2fba8477d0b65da9e52eda8cfe26e"
+< Accept-Ranges: bytes
+< Content-Type: application/json
+< Content-Length: 1191488
+* Server AmazonS3 is not blacklisted
+< Server: AmazonS3
+< 
+* Connection #1 to host echonest-analysis.s3.amazonaws.com left intact
