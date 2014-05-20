@@ -2,45 +2,23 @@
 
 May 20, 2014
 
-Real documentation here: [http://zerokidz.com/ideas/?p=5859
+Real documentation: [http://zerokidz.com/ideas/?p=5859
 ](http://)
 
 ---
  
 ## overview
 
-This is a series of projects that demonstrate ways to use Internet API's for interactive media projects.
+Projects that use Internet API's for interactive media projects.
 
-Projects have been tested on Mac OS 10.9.3
-
-All but one of the projects use Max/MSP 6.1.7 from: [http://cycling74.com](http://) 
-
-The other project uses Pure Data extended from: [http://puredata.info](http://)
-
-Other dependencies are listed in the documentation for individual projects.
+* Projects have been tested on Mac OS 10.9.3
+* All Max projects use Max/MSP 6.1.7 from: [http://cycling74.com](http://) 
+* The Pd project uses Pure Data extended from: [http://puredata.info](http://)
+* Other dependencies are listed in the documentation for individual projects.
 
 ---
-## files
+## project index
 
-Projects are now in separate folders.
-
----
-## authorization
-
-Some of the projects require passwords and API-keys from providers. For example, you'll need a Twitter account, to run the 'Twitter streaming API in Max' project. For projects which need authorization you'll need to modify the patches/source code with your user information - as directed - or they just won't work.
-
-
----
-## help
-
-The API's used in the projects change often. If you find problems or have ideas - please post an issue or email me at tkzic@megalink.net 
-
----
-## projects
-
-For up to date list and links see: [http://zerokidz.com/ideas/?p=5859](http://)
-
----
 
 * Twitter streaming API in Max
 * Sending tweets from Max using curl
@@ -59,9 +37,27 @@ For up to date list and links see: [http://zerokidz.com/ideas/?p=5859](http://)
 * Max data recorder
 * Web Audio Google domain ping machine
 
-*Also Tweet using a Fisher Price Little Tikes piano
+*Now you can Tweet using a Fisher Price Little-Tikes piano
 
 ---
+
+## files
+
+Projects are now in separate folders.
+
+---
+## authorization
+
+Some of the projects require passwords and API-keys from providers. For example, you'll need a Twitter account, to run the 'Twitter streaming API in Max' project. For projects which need authorization you'll need to modify the patches/source code with your user information - as directed - or they just won't work.
+
+
+---
+## help
+
+The API's used in the projects change often. If you find problems or have ideas - please post an issue or email me at tkzic@megalink.net 
+
+---
+
 ## Revision history
 
 
