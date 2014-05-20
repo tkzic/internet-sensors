@@ -1,67 +1,75 @@
-internet-sensors projects
-README.md
-May 19, 2014 (revised twitter streaming project)
+# internet-sensors projects
 
-A web version of this document (with pictures) can be found at: http://zerokidz.com/ideas/?p=5859
+May 20, 2014
 
-NOTE!!! - This project is undergoing active revision 5/2014 - The projects are being re-tested and moved to separate folders. Because things have gotten out of hand. 
+Real documentation here: [http://zerokidz.com/ideas/?p=5859
+](http://)
 
 ---
-overview:
+ 
+## overview
 
 This is a series of projects that demonstrate ways to use Internet API's for interactive media projects.
 
-Projects have been tested on Mac OS 10.7 (Lion). All but one of the projects use Max/MSP 6.1.0 from: http://cycling74.com. The other project uses Pure Data 0.42.5 (extended) from: http://puredata.info. Other required programs are listed in the documentation for individual projects.
+Projects have been tested on Mac OS 10.9.3
+
+All but one of the projects use Max/MSP 6.1.7 from: [http://cycling74.com](http://) 
+
+The other project uses Pure Data extended from: [http://puredata.info](http://)
+
+Other dependencies are listed in the documentation for individual projects.
 
 ---
-downloads:
+## files
 
-The links for the projects below include operating instructions. All the patches, source code, and data can be downloaded from the github repository:
-
- https://github.com/tkzic/internet-sensors
+Projects are now in separate folders.
 
 ---
-authorization:
+## authorization
 
-Some of the projects require you to get passwords and API-keys from providers. For example, you'll need a Twitter account, to run the 'Twitter streaming API in Max' project. For projects which need authorization you'll need to modify the patches/source code with your user information - as directed - or they just won't work.
-
----
-help:
-
-The API's used in the projects change fairly often. So there's no guarantee they'll work. If you find problems or have ideas - please post to them to the github repository. Or email me at tkzic@megalink.net with "Internet sensor projects" somewhere in the subject heading.
-
----
-Projects: For up to date list and links see: http://zerokidz.com/ideas/?p=5859
-
----
-
-Twitter streaming API in Max
-Sending tweets from Max using curl
-Sending tweets from Max using ruby*
-Sending tweets from Max using speech 
-A conversation with a robot in Max 
-Playing bird calls in Max 
-Soundcloud API in Max 
-Real time train map using Max and node.js 
-Playing stock market music with Max ([Note] This project is currently not part of the github archive.)
-Using wind forecast data to drive wind sounds in Pure Data 
-Using ping times to control oscillators in Max
-Echo Nest segment analysis player 
-Flying a Quad-copter AR_Drone with Max
-Adding Markers to Google Maps in Max
-Max data recorder
-Web Audio Google domain ping machine
-
-*Use a Fisher Price Little Tikes piano
+Some of the projects require passwords and API-keys from providers. For example, you'll need a Twitter account, to run the 'Twitter streaming API in Max' project. For projects which need authorization you'll need to modify the patches/source code with your user information - as directed - or they just won't work.
 
 
 ---
+## help
 
-[note 5/17/2014]: 
-1) Added Google Maps
-2) Added Little Tikes piano
-3) Added data recorder
-4) Added web audio domain ping machine
+The API's used in the projects change often. If you find problems or have ideas - please post an issue or email me at tkzic@megalink.net 
+
+---
+## projects
+
+For up to date list and links see: [http://zerokidz.com/ideas/?p=5859](http://)
+
+---
+
+* Twitter streaming API in Max
+* Sending tweets from Max using curl
+* Sending tweets from Max using ruby*
+* Speech to text in Max 
+* A conversation with a robot in Max 
+* Playing bird calls in Max 
+* Soundcloud API in Max 
+* Real time train map using Max and node.js 
+* Playing stock market music with Max (Note: This project is currently not part of the github archive.)
+* Using wind forecast data to drive wind sounds in Pure Data (Currently broken!)
+* Using ping times to control oscillators in Max
+* Echo Nest segment analysis player 
+* Flying a Quad-copter AR_Drone with Max
+* Adding Markers to Google Maps in Max
+* Max data recorder
+* Web Audio Google domain ping machine
+
+*Also Tweet using a Fisher Price Little Tikes piano
+
+---
+## Revision history
+
+
+May 20, 2014 - 
+
+* Moved all projects into folders
+* Wind project is broken
+
 
 ---
 
