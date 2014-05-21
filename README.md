@@ -3,7 +3,7 @@
 May 20, 2014
 
 documentation: [http://zerokidz.com/ideas/?p=5859
-](http://)
+](http://zerokidz.com/ideas/?p=5859)
 
 ---
  
@@ -12,15 +12,15 @@ documentation: [http://zerokidz.com/ideas/?p=5859
 Projects that use Internet API's for interactive media projects.
 
 * Projects tested on Mac OS 10.9.3
-* Max projects use Max/MSP 6.1.7 from: [http://cycling74.com](http://) 
-* Pd projects use Pure Data extended from: [http://puredata.info](http://)
+* Max projects use Max/MSP 6.1.7 from: [http://cycling74.com](http://cycling74.com) 
+* Pd projects use Pure Data extended from: [http://puredata.info](http://puredata.info)
 * Other dependencies listed in the documentation for individual projects.
 
 ---
 ## project index
 
 documentation: [http://zerokidz.com/ideas/?p=5859
-](http://)
+](http://zerokidz.com/ideas/?p=5859)
 
 
 * Twitter streaming API in Max
@@ -51,7 +51,9 @@ Projects are now in separate folders.
 ---
 ## authorization
 
-Some of the projects require passwords and API-keys from providers. For example, you'll need a Twitter account, to run the 'Twitter streaming API in Max' project. For projects which need authorization you'll need to modify the patches/source code with your user information - as directed - or they just won't work.
+Some of the projects require passwords and API-keys from providers. For example, you'll need a Twitter account to run the 'Twitter streaming API in Max' project. 
+
+For projects which need authorization you'll need to modify the patches/source code with your user information - as directed - or they just won't work.
 
 
 ---
