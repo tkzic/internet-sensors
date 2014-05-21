@@ -11,13 +11,16 @@ Real documentation: [http://zerokidz.com/ideas/?p=5859
 
 Projects that use Internet API's for interactive media projects.
 
-* Projects have been tested on Mac OS 10.9.3
-* All Max projects use Max/MSP 6.1.7 from: [http://cycling74.com](http://) 
-* The Pd project uses Pure Data extended from: [http://puredata.info](http://)
-* Other dependencies are listed in the documentation for individual projects.
+* Projects tested on Mac OS 10.9.3
+* Max projects use Max/MSP 6.1.7 from: [http://cycling74.com](http://) 
+* Pd projects use Pure Data extended from: [http://puredata.info](http://)
+* Other dependencies listed in the documentation for individual projects.
 
 ---
 ## project index
+
+Documenation: [http://zerokidz.com/ideas/?p=5859
+](http://)
 
 
 * Twitter streaming API in Max
@@ -29,7 +32,7 @@ Projects that use Internet API's for interactive media projects.
 * Soundcloud API in Max 
 * Real time train map using Max and node.js 
 * Playing stock market music with Max (Note: This project is currently not part of the github archive.)
-* Using wind forecast data to drive wind sounds in Pure Data (Currently broken!)
+* Using weather forecast data to drive weather sounds in Pure Data
 * Using ping times to control oscillators in Max
 * Echo Nest segment analysis player 
 * Flying a Quad-copter AR_Drone with Max
@@ -64,7 +67,7 @@ The API's used in the projects change often. If you find problems or have ideas 
 May 20, 2014 - 
 
 * Moved all projects into folders
-* Wind project is broken
+* Pd Wind project is ~~broken~~ now fixed!
 
 
 ---

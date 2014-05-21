@@ -113,6 +113,10 @@ while 1
   
   windData['list'].each do | rec |
     msg = ""
+    # 5/2014 - need to do this check for empty records - not sure why?
+    if(!rec['main']) 
+      break;
+    end
     # records have names in owm !
     # 
     msg = msg + "#{rec['dt']} "
@@ -149,11 +153,16 @@ while 1
     puts msg 
     @client.send(OSC::Message.new( "/wind", msg ));
     sleep(playbackRate)
+    # puts "next record dude..."
   end
   
   
   windData['list'].reverse.each do | rec |
     msg = ""
+    # 5/2014 - need to do this check for empty records - not sure why?
+    if(!rec['main']) 
+      break;
+    end
     # records have names in owm !
     # 
     msg = msg + "#{rec['dt']} "
