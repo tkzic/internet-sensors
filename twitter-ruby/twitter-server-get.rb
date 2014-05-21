@@ -21,10 +21,10 @@ require 'twitter'
 
 twitterClient = Twitter::Streaming::Client.new do |config|
 # Twitter.configure do |config|
-  config.consumer_key = "mqQtoYh16Ro77wy3BK7QQ"       
-  config.consumer_secret = "X0KexjlKBDW9ZjMSR1EztapZfATCQqWCc5fXVJH2pE"      
-  config.oauth_token = "205589709-5k8fy4FIQVr3KkLGRDnewiU7GSj6ABMA6i2La84c"        
-  config.oauth_token_secret = "LNARAeooN2vkklklPUrYf2dihQ5D8YYkm8dYvEs68M"  
+  config.consumer_key = "mqQtoYh16Ro77wy3reBK7QQ"       
+  config.consumer_secret = "X0KexjlK453BDW9ZjMSR1EztapZfATCQqWCc5fXVJH2pE"      
+  config.oauth_token = "205589709-5k8fy4FIQV87f6r3KkLGRDnewiU7GSj6ABMA6i2La84c"        
+  config.oauth_token_secret = "LNARAeo386oN2vkklklPUrYf2dihQ5D8YYkm8dYvEs68M"  
 end
 
 ###################################################################

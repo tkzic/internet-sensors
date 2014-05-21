@@ -42,10 +42,10 @@ require 'twitter'
 
 twitterClient = Twitter::REST::Client.new do |config|
 # Twitter.configure do |config|
-  config.consumer_key = "mqQtoYh16Ro77wy3BK7QQ"       
-  config.consumer_secret = "X0KexjlKBDW9ZjMSR1EztapZfATCQqWCc5fXVJH2pE"      
-  config.oauth_token = "205589709-5k8fy4FIQVr3KkLGRDnewiU7GSj6ABMA6i2La84c"        
-  config.oauth_token_secret = "LNARAeooN2vkklklPUrYf2dihQ5D8YYkm8dYvEs68M"  
+  config.consumer_key = "mqQtoYh16dfgRo77wy3BK7QQ"       
+  config.consumer_secret = "X0KexjldfgKBDW9ZjMSR1EztapZfATCQqWCc5fXVJH2pE"      
+  config.oauth_token = "205589709-5k8f654y4FIQVr3KkLGRDnewiU7GSj6ABMA6i2La84c"        
+  config.oauth_token_secret = "LNARAeooN2vkkl765klPUrYf2dihQ5D8YYkm8dYvEs68M"  
 end
 
 ###################################################################
