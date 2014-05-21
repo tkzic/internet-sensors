@@ -2,7 +2,7 @@
 
 May 20, 2014
 
-Real documentation: [http://zerokidz.com/ideas/?p=5859
+documentation: [http://zerokidz.com/ideas/?p=5859
 ](http://)
 
 ---
@@ -19,7 +19,7 @@ Projects that use Internet API's for interactive media projects.
 ---
 ## project index
 
-Documenation: [http://zerokidz.com/ideas/?p=5859
+documentation: [http://zerokidz.com/ideas/?p=5859
 ](http://)
 
 
