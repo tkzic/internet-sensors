@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 
-# file: ruby-max-tweet-oauth2.rb
+# file: twitter-server-send.rb
 #
 # updated 11/26/2013 for latest version of twitter gem
 #
@@ -11,7 +11,7 @@
 # this is a server that
 # sends tweets from Max by receiving tweet-text from Max using Osc
 # 
-# maxpatch is ruby-max-tweet-oauth.maxpat
+# maxpatch is twitter-client.maxpat
 #
 # receives: osc messages in form of: /tweet message-string
 # returns: /response with tweet id or error text 
@@ -42,10 +42,10 @@ require 'twitter'
 
 twitterClient = Twitter::REST::Client.new do |config|
 # Twitter.configure do |config|
-  config.consumer_key = "mqQtoYh16Ro77w43BK7QQ"       
-  config.consumer_secret = "X0KexjlKBDW9ZjMSR1Ezte45fATCQqWCc5fXVJH2pE"      
-  config.oauth_token = "205589709-5k8ffdgIQVr3KkLGRDnewiU7GSj6ABMA6i2La84c"        
-  config.oauth_token_secret = "LNARAeoerrkklklPUrYf2dihQ5D8YYkm8dYvEs68M"  
+  config.consumer_key = "mqQtoYh16Ro77wy3BK7QQ"       
+  config.consumer_secret = "X0KexjlKBDW9ZjMSR1EztapZfATCQqWCc5fXVJH2pE"      
+  config.oauth_token = "205589709-5k8fy4FIQVr3KkLGRDnewiU7GSj6ABMA6i2La84c"        
+  config.oauth_token_secret = "LNARAeooN2vkklklPUrYf2dihQ5D8YYkm8dYvEs68M"  
 end
 
 ###################################################################

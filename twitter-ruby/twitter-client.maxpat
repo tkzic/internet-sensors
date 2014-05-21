@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 53.0, 314.0, 840.0, 365.0 ],
+		"rect" : [ 55.0, 172.0, 1060.0, 349.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,6 +29,93 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.182929, 1.0, 0.4868, 0.4 ],
+					"fontname" : "Arial",
+					"fontsize" : 18.0,
+					"frgb" : 0.0,
+					"id" : "obj-30",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 370.0, 17.0, 186.0, 27.0 ],
+					"text" : "A Max Twitter client"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-25",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 195.173401, 315.0, 59.0, 20.0 ],
+					"text" : "sender"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-23",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 883.0, 163.0, 64.0, 20.0 ],
+					"text" : "receiver"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-21",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 775.173401, 17.0, 240.0, 20.0 ],
+					"text" : "run these servers in background:"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.67862, 0.816716, 1.0, 0.4 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-19",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 507.173401, 251.0, 108.0, 20.0 ],
+					"text" : "a received Tweet"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.84839, 1.0, 0.967165, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-17",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 775.173401, 242.0, 240.0, 18.0 ],
+					"text" : ":468970477898444800"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-2",
@@ -38,21 +125,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 370.0, 97.0, 111.0, 20.0 ],
 					"text" : "receive send-tweet"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-16",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 719.0, 243.5, 95.0, 47.0 ],
-					"text" : "this is the tweet id or an error response"
 				}
 
 			}
@@ -79,23 +151,22 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 42.173401, 285.0, 528.0, 18.0 ],
-					"text" : "/tweet \"hello there\""
+					"patching_rect" : [ 42.173401, 281.0, 438.826599, 18.0 ],
+					"text" : "/tweet \"something going on here\""
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-4",
-					"linecount" : 11,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 499.0, 17.5, 314.0, 179.0 ],
-					"text" : "Send Tweets from Max via ruby server  macOS only - uses oauth - 9/7/2013 \n--------------------------------------------------------\n1. Edit Twitter app registered credentials in the server program: max-ruby-tweet-oauth2.rb\n2. Run server from command line:\n# ruby ./ruby-max-tweet-oauth2.rb\n3. Run this patch\n\npart of the internetSensors project - see this website: https://github.com/tkzic/internet-sensors"
+					"patching_rect" : [ 775.173401, 88.0, 240.0, 20.0 ],
+					"text" : "twitter-server-get.rb (for receiving)"
 				}
 
 			}
@@ -106,7 +177,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 584.0, 280.5, 20.0, 20.0 ]
+					"patching_rect" : [ 749.0, 200.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -131,12 +202,11 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-12",
-					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 121.673401, 17.5, 226.0, 47.0 ],
-					"text" : "1. run the server in a terminal window: \n\n# ./ruby-max-tweet-oauth2.rb"
+					"patching_rect" : [ 775.173401, 55.5, 240.0, 20.0 ],
+					"text" : " twitter-server-send.rb (for sending)"
 				}
 
 			}
@@ -147,26 +217,11 @@
 					"fontsize" : 12.0,
 					"id" : "obj-10",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 610.173401, 280.5, 94.0, 20.0 ],
-					"text" : "route /response"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-14",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 315.0, 235.173401, 33.0 ],
-					"text" : "communicates with a ruby server script called ruby-max-tweet.rb"
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 775.173401, 200.0, 129.0, 20.0 ],
+					"text" : "route /tweet /response"
 				}
 
 			}
@@ -177,22 +232,22 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 584.0, 243.5, 20.0, 20.0 ]
+					"patching_rect" : [ 749.0, 163.0, 20.0, 20.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.84839, 1.0, 0.967165, 1.0 ],
+					"bgcolor" : [ 0.670505, 1.0, 0.683659, 0.42 ],
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 14.0,
 					"id" : "obj-6",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 610.173401, 322.5, 202.826599, 18.0 ],
-					"text" : ":466790601246380032"
+					"patching_rect" : [ 507.173401, 281.0, 508.0, 20.0 ],
+					"text" : "\":this is a test of something\""
 				}
 
 			}
@@ -218,7 +273,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 610.173401, 243.5, 99.0, 20.0 ],
+					"patching_rect" : [ 775.173401, 163.0, 99.0, 20.0 ],
 					"text" : "udpreceive 3333"
 				}
 
@@ -232,7 +287,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 44.0, 74.0, 20.0 ],
+					"patching_rect" : [ 42.173401, 43.5, 74.0, 20.0 ],
 					"text" : "prepend set"
 				}
 
@@ -246,7 +301,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 17.5, 105.0, 20.0 ],
+					"patching_rect" : [ 42.173401, 17.0, 105.0, 20.0 ],
 					"text" : "receive tweet-text"
 				}
 
@@ -258,12 +313,12 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-33",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 370.0, 17.5, 75.0, 60.0 ],
-					"text" : "3. press green button to send tweet"
+					"patching_rect" : [ 426.0, 127.0, 82.0, 47.0 ],
+					"text" : "press green button to send tweet"
 				}
 
 			}
@@ -278,7 +333,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 90.0, 97.0, 139.0, 20.0 ],
-					"text" : "2. compose a tweet"
+					"text" : "compose a tweet"
 				}
 
 			}
@@ -332,7 +387,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 370.0, 127.0, 64.0, 64.0 ]
+					"patching_rect" : [ 370.0, 127.0, 47.0, 47.0 ]
 				}
 
 			}
@@ -350,7 +405,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 42.173401, 127.0, 319.0, 49.0 ],
 					"tabmode" : 0,
-					"text" : "hello there"
+					"text" : "something going on here"
 				}
 
 			}
@@ -370,6 +425,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-10", 1 ]
 				}
 
 			}

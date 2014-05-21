@@ -25,7 +25,7 @@ documentation: [http://zerokidz.com/ideas/?p=5859
 
 * Twitter streaming API in Max
 * Sending tweets from Max using curl
-* Sending tweets from Max using ruby*
+* Send and receive Tweets in Max using ruby*
 * Speech to text in Max 
 * A conversation with a robot in Max 
 * Playing bird calls in Max 
@@ -70,6 +70,7 @@ May 20, 2014 -
 
 * Moved all projects into folders
 * Pd Wind project is ~~broken~~ now fixed!
+* refactored ruby twitter client (now receives tweets)
 
 
 ---
