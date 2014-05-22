@@ -9,7 +9,7 @@ documentation: [http://zerokidz.com/ideas/?p=5859
  
 ## overview
 
-Projects that use Internet API's for interactive media projects.
+Projects that use Max and Internet API's for interactive media.
 
 * Projects tested on Mac OS 10.9.3
 * Max projects use Max/MSP 6.1.7 from: [http://cycling74.com](http://cycling74.com) 
@@ -51,7 +51,7 @@ Projects are now in separate folders.
 ---
 ## authorization
 
-Some of the projects require passwords and API-keys from providers. For example, you'll need a Twitter account to run the 'Twitter streaming API in Max' project. 
+Some projects require passwords and API-keys from providers. For example, you'll need a Twitter dev account to run the 'Twitter streaming API in Max' project. 
 
 For projects which need authorization you'll need to modify the patches/source code with your user information - as directed - or they just won't work.
 
