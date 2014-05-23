@@ -1,0 +1,69 @@
+<html>
+<title>the big board</title>
+<head>
+<script src="selectstock3.js"></script>
+</head>
+<body onload="setdates()" >
+
+
+<form name="myform" onsubmit="showstock(); return false; "  > 
+
+<input type=button value="auto-" name="autobutton" id="autob" style="color:red" onclick="setauto()"  />&nbsp; 
+enter ticker symbols and press auto when the market is open<hr>
+
+<input type=button value="get quotes" name="mysubmit" id="sub" onclick="showstock()"  />
+tickers <input name="symbol"  type=text  size = 25 />
+<input type=button value="tracking-" name="trackbutton" id="trackb" style="color:red" onclick="settrack()"  />
+<input type=button value="loop-" name="quoteloopbutton" id="quoteloopb" style="color:red" onclick="setquoteloop()"  />
+
+<hr>
+<input type=button value="play" name="playbutton" id="playb" onclick="play()"  />
+start <input name="qstartdate" type=text size= 10  />
+<input name="qstarttime" type=text size = 5 />
+end <input name="qenddate" type=text size = 10 />
+<input name="qendtime" type=text size = 5 />
+interval <input name="playinterval" id="playint" type=text value="30" size = 5 />
+<input type=button value="loop-" name="loopbutton" id="loopb" style="color:red" onclick="setloop()"  />
+
+<hr>
+<input type=button value="debug-" name="debugbutton" id="debugb" style="color:red" onclick="setdebug()"  />
+<!-- mmsp <input name="mmsp" type=text size = 25 /> -->
+clock <input type=text value="00" name="activebutton" id="activeb" style="color:red" size= 3  />
+timeout <input name="timeout" id="timeo" type=text value="15" size = 3 />
+
+<hr>
+
+IP address of Max <input name="maxip" onchange="setIP()" type=text size = 18 />
+
+
+
+
+
+</form>
+
+<p>
+<!-- div id="txtJson"><b>stock quotes will be listed below</b></div> -->
+<hr>
+
+<div id="q0" style ="display:none"></div>
+<div id="q1" style ="display:none"></div>
+<div id="q2" style ="display:none"></div>
+<div id="q3" style ="display:none"></div>
+<div id="q4" style ="display:none"></div>
+<div id="q5" style ="display:none"></div>
+<div id="q6" style ="display:none"></div>
+<div id="q7" style ="display:none"></div>
+<div id="q8" style ="display:none"></div>
+<div id="q9" style ="display:none"></div>
+<div id="q10" style ="display:none"></div>
+<div id="q11" style ="display:none"></div>
+</p>
+
+<p>
+<hr>
+<div id="txtHint">raw quote results</div>
+<hr>
+<div id="txtPlay">raw play results</div>
+</p>
+</body>
+</html>

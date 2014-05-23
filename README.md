@@ -1,6 +1,6 @@
 # internet-sensors projects
 
-May 20, 2014
+May 22, 2014
 
 documentation: [http://zerokidz.com/ideas/?p=5859
 ](http://zerokidz.com/ideas/?p=5859)
@@ -31,7 +31,7 @@ documentation: [http://zerokidz.com/ideas/?p=5859
 * Playing bird calls in Max 
 * Soundcloud API in Max 
 * Real time train map using Max and node.js 
-* Playing stock market music with Max (Note: This project is currently not part of the github archive.)
+* Playing stock market music in Max 
 * Using weather forecast data to drive weather sounds in Pure Data
 * Using ping times to control oscillators in Max
 * Echo Nest segment analysis player 
@@ -64,6 +64,12 @@ The API's used in the projects change often. If you find problems or have ideas 
 ---
 
 ## Revision history
+
+May 22, 2014 - 
+
+* Added stock market project
+
+---
 
 
 May 20, 2014 - 
