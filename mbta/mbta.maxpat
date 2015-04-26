@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
@@ -99,7 +99,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -747,7 +747,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -1242,7 +1242,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -2243,7 +2243,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 150.0, 173.0, 282.0, 18.0 ],
-					"text" : "\"3 3 42.3643531799316 -71.1021347045898\""
+					"text" : "\"4 4 42.3731307983398 -71.1177673339844\""
 				}
 
 			}
@@ -2313,7 +2313,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 51.0, 88.5, 693.0, 18.0 ],
-					"text" : "get http://realtime.mbta.com/developer/api/v2/vehiclesbyroute?api_key=wX9NwuHnZU2ToO7GmGR9uw&route=01&format=json"
+					"text" : "get http://realtime.mbta.com/developer/api/v2/vehiclesbyroute?api_key=wX9NwuHnZU2ToO7GmGR9uw&route=1&format=json"
 				}
 
 			}
@@ -2875,14 +2875,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mbta.js",
-				"bootpath" : "/Users/tkzic/max teaching examples/mbta",
+				"bootpath" : "/Users/tkzic/internetsensors-repo/mbta",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "poly-oscillator.maxpat",
-				"bootpath" : "/Users/tkzic/max teaching examples/mbta",
+				"bootpath" : "/Users/tkzic/internetsensors-repo/mbta",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
