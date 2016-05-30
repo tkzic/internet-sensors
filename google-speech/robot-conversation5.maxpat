@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 43.0, 44.0, 1049.0, 627.0 ],
+		"rect" : [ 43.0, 45.0, 1049.0, 627.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -261,13 +261,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-25",
-					"linecount" : 6,
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 538.0, 340.0, 24.0, 31.0 ],
-					"text" : "\"hello there\""
+					"patching_rect" : [ 538.0, 340.0, 24.0, 58.0 ],
+					"text" : "monster"
 				}
 
 			}
@@ -543,7 +543,7 @@
 					"patching_rect" : [ 235.0, 339.5, 77.25, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 782.5, 117.5, 62.0, 18.0 ],
-					"text" : "0.586777"
+					"text" : "0.886808"
 				}
 
 			}
@@ -827,7 +827,7 @@
 					"patching_rect" : [ 198.0, 364.5, 310.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 675.5, 150.25, 310.0, 19.0 ],
-					"text" : "\"hello there\""
+					"text" : "monster"
 				}
 
 			}
@@ -846,7 +846,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -870,6 +870,21 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-4",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 347.0, 100.0, 150.0, 33.0 ],
+									"text" : "needed to use explicit path to sox bin 4/24/2016"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -1081,7 +1096,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 522.0, 157.0, 336.0, 22.0 ],
+									"patching_rect" : [ 612.0, 157.0, 336.0, 22.0 ],
 									"text" : "convert audio file to 16khz mono FLAC, using 'sox' "
 								}
 
@@ -1205,7 +1220,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 445.0, 425.0, 104.0, 18.0 ],
-									"text" : "0.586777"
+									"text" : "0.886808"
 								}
 
 							}
@@ -1220,7 +1235,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 592.5, 375.0, 604.0, 22.0 ],
-									"text" : "\"hello there\""
+									"text" : "monster"
 								}
 
 							}
@@ -1347,8 +1362,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 93.75, 157.0, 411.0, 20.0 ],
-									"text" : "sprintf sox /tmp/tweet.aif -b 16 -r 16000 -c 1 --norm=-5 /tmp/tweet.flac 2>&1"
+									"patching_rect" : [ 93.75, 157.0, 481.0, 20.0 ],
+									"text" : "sprintf /opt/local/bin/sox /tmp/tweet.aif -b 16 -r 16000 -c 1 --norm=-5 /tmp/tweet.flac 2>&1"
 								}
 
 							}
@@ -1878,7 +1893,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -2175,12 +2190,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-31",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 286.0, 292.142883, 196.0, 18.0 ],
-									"text" : "/Users/tkzic/internetsensors/"
+									"text" : "/Users/tkzic/internetsensors/google-speech/"
 								}
 
 							}
@@ -2757,8 +2773,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 146.0, 606.25, 272.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.0, 509.25, 944.5, 22.0 ],
-					"text" : "\"hello there\""
+					"presentation_rect" : [ 41.0, 509.25, 944.5, 22.0 ]
 				}
 
 			}
@@ -3132,7 +3147,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-84",
-					"items" : [ "(default)", ",", "Agnes", ",", "Albert", ",", "Alex", ",", "Bad News", ",", "Bahh", ",", "Bells", ",", "Boing", ",", "Bruce", ",", "Bubbles", ",", "Cellos", ",", "Deranged", ",", "Fred", ",", "Good News", ",", "Hysterical", ",", "Junior", ",", "Kathy", ",", "Pipe Organ", ",", "Princess", ",", "Ralph", ",", "Trinoids", ",", "Vicki", ",", "Victoria", ",", "Whisper", ",", "Zarvox" ],
+					"items" : [ "(default)", ",", "Agnes", ",", "Albert", ",", "Alex", ",", "Alice Compact", ",", "Alva Compact", ",", "Amelie Compact", ",", "Anna Compact", ",", "Bad News", ",", "Bahh", ",", "Bells", ",", "Boing", ",", "Bruce", ",", "Bubbles", ",", "Carmit Compact", ",", "Cellos", ",", "Damayanti Compact", ",", "Daniel Compact", ",", "Deranged", ",", "Diego Compact", ",", "Ellen Compact", ",", "Fiona Compact", ",", "Fred", ",", "Good News", ",", "Hysterical", ",", "Ioana Compact", ",", "Joana Compact", ",", "Junior", ",", "Kanya Compact", ",", "Karen Compact", ",", "Kathy", ",", "Kyoko Compact", ",", "Laura Compact", ",", "Lekha Compact", ",", "Luciana Compact", ",", "Maged Compact", ",", "Mariska Compact", ",", "Mei-Jia Compact", ",", "Melina Compact", ",", "Milena Compact", ",", "Moira Compact", ",", "Monica Compact", ",", "Nora Compact", ",", "Paulina Compact", ",", "Pipe Organ", ",", "Princess", ",", "Ralph", ",", "Samantha Compact", ",", "Sara Compact", ",", "Satu Compact", ",", "Sin-ji Compact", ",", "Tessa Compact", ",", "Thomas Compact", ",", "Ting-Ting Compact", ",", "Trinoids", ",", "Veena Compact", ",", "Vicki", ",", "Victoria", ",", "Whisper", ",", "Xander Compact", ",", "Yelda Compact", ",", "Yuna Compact", ",", "Zarvox", ",", "Zosia Compact", ",", "Zuzana Compact" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3173,7 +3188,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -3676,7 +3691,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-36",
-									"items" : [ "(default)", ",", "Agnes", ",", "Albert", ",", "Alex", ",", "Bad News", ",", "Bahh", ",", "Bells", ",", "Boing", ",", "Bruce", ",", "Bubbles", ",", "Cellos", ",", "Deranged", ",", "Fred", ",", "Good News", ",", "Hysterical", ",", "Junior", ",", "Kathy", ",", "Pipe Organ", ",", "Princess", ",", "Ralph", ",", "Trinoids", ",", "Vicki", ",", "Victoria", ",", "Whisper", ",", "Zarvox" ],
+									"items" : [ "(default)", ",", "Agnes", ",", "Albert", ",", "Alex", ",", "Alice Compact", ",", "Alva Compact", ",", "Amelie Compact", ",", "Anna Compact", ",", "Bad News", ",", "Bahh", ",", "Bells", ",", "Boing", ",", "Bruce", ",", "Bubbles", ",", "Carmit Compact", ",", "Cellos", ",", "Damayanti Compact", ",", "Daniel Compact", ",", "Deranged", ",", "Diego Compact", ",", "Ellen Compact", ",", "Fiona Compact", ",", "Fred", ",", "Good News", ",", "Hysterical", ",", "Ioana Compact", ",", "Joana Compact", ",", "Junior", ",", "Kanya Compact", ",", "Karen Compact", ",", "Kathy", ",", "Kyoko Compact", ",", "Laura Compact", ",", "Lekha Compact", ",", "Luciana Compact", ",", "Maged Compact", ",", "Mariska Compact", ",", "Mei-Jia Compact", ",", "Melina Compact", ",", "Milena Compact", ",", "Moira Compact", ",", "Monica Compact", ",", "Nora Compact", ",", "Paulina Compact", ",", "Pipe Organ", ",", "Princess", ",", "Ralph", ",", "Samantha Compact", ",", "Sara Compact", ",", "Satu Compact", ",", "Sin-ji Compact", ",", "Tessa Compact", ",", "Thomas Compact", ",", "Ting-Ting Compact", ",", "Trinoids", ",", "Veena Compact", ",", "Vicki", ",", "Victoria", ",", "Whisper", ",", "Xander Compact", ",", "Yelda Compact", ",", "Yuna Compact", ",", "Zarvox", ",", "Zosia Compact", ",", "Zuzana Compact" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3729,7 +3744,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 10,
 											"architecture" : "x86"
 										}
 ,
@@ -4114,7 +4129,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 10,
 											"architecture" : "x86"
 										}
 ,
@@ -6244,8 +6259,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 760.5, 582.928589, 153.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 746.0, 361.75, 167.0, 20.0 ],
-					"text" : "c26ee150bf3d5193"
+					"presentation_rect" : [ 746.0, 361.75, 167.0, 20.0 ]
 				}
 
 			}
@@ -6255,15 +6269,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 16.0,
 					"id" : "obj-24",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 461.5, 538.25, 285.0, 40.0 ],
+					"patching_rect" : [ 461.5, 538.25, 285.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.0, 572.0, 944.5, 22.0 ],
-					"text" : "\"Hello! Will you help me to save the world?\""
+					"presentation_rect" : [ 41.0, 572.0, 944.5, 22.0 ]
 				}
 
 			}
@@ -7432,42 +7444,42 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "pandorabots.txt",
-				"bootpath" : "/Users/tkzic/internetsensors",
+				"bootpath" : "/Users/tkzic/internetsensors/google-speech",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "JSON-pandorabot.js",
-				"bootpath" : "/Users/tkzic/internetsensors",
+				"bootpath" : "/Users/tkzic/internetsensors/google-speech",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "autorecord-buffer2.maxpat",
-				"bootpath" : "/Users/tkzic/internetsensors",
+				"bootpath" : "/Users/tkzic/internetsensors/google-speech",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "auto-record-switch.maxpat",
-				"bootpath" : "/Users/tkzic/internetsensors",
+				"bootpath" : "/Users/tkzic/internetsensors/google-speech",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "JSON-google-speech.js",
-				"bootpath" : "/Users/tkzic/internetsensors",
+				"bootpath" : "/Users/tkzic/internetsensors/google-speech",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clean-html.js",
-				"bootpath" : "/Users/tkzic/internetsensors",
+				"bootpath" : "/Users/tkzic/internetsensors/google-speech",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1

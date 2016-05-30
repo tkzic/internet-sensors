@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 43.0, 44.0, 1048.0, 255.0 ],
+		"rect" : [ 43.0, 45.0, 1048.0, 244.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -339,7 +339,7 @@
 					"patching_rect" : [ 235.0, 339.5, 77.25, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 782.5, 117.5, 62.0, 18.0 ],
-					"text" : "0.973352"
+					"text" : "0.846009"
 				}
 
 			}
@@ -623,7 +623,7 @@
 					"patching_rect" : [ 198.0, 364.5, 310.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 675.5, 150.25, 310.0, 19.0 ],
-					"text" : "\"where are we\""
+					"text" : "Hulu"
 				}
 
 			}
@@ -642,7 +642,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -666,6 +666,22 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"bgcolor" : [ 0.550651, 1.0, 0.623025, 0.257051 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-4",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 347.0, 100.0, 150.0, 47.0 ],
+									"text" : "needed to use explicit path to sox binary here 4/24/2016"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -877,7 +893,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 522.0, 157.0, 336.0, 22.0 ],
+									"patching_rect" : [ 621.0, 157.0, 336.0, 22.0 ],
 									"text" : "convert audio file to 16khz mono FLAC, using 'sox' "
 								}
 
@@ -1001,7 +1017,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 445.0, 425.0, 104.0, 18.0 ],
-									"text" : "0.973352"
+									"text" : "0.846009"
 								}
 
 							}
@@ -1016,7 +1032,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 592.5, 375.0, 604.0, 22.0 ],
-									"text" : "\"where are we\""
+									"text" : "Hulu"
 								}
 
 							}
@@ -1143,8 +1159,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 93.75, 157.0, 411.0, 20.0 ],
-									"text" : "sprintf sox /tmp/tweet.aif -b 16 -r 16000 -c 1 --norm=-5 /tmp/tweet.flac 2>&1"
+									"patching_rect" : [ 93.75, 157.0, 481.0, 20.0 ],
+									"text" : "sprintf /opt/local/bin/sox /tmp/tweet.aif -b 16 -r 16000 -c 1 --norm=-5 /tmp/tweet.flac 2>&1"
 								}
 
 							}
@@ -1992,21 +2008,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "autorecord-buffer2.maxpat",
-				"bootpath" : "/Users/tkzic/internetsensors",
+				"bootpath" : "/Users/tkzic/internetsensors/google-speech",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "auto-record-switch.maxpat",
-				"bootpath" : "/Users/tkzic/internetsensors",
+				"bootpath" : "/Users/tkzic/internetsensors/google-speech",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "JSON-google-speech.js",
-				"bootpath" : "/Users/tkzic/internetsensors",
+				"bootpath" : "/Users/tkzic/internetsensors/google-speech",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
