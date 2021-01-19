@@ -94,7 +94,39 @@ $RECVPORT = '7401';
 		
 			// here we have a single tweet
 	        echo "\n\nreceived tweet from:{$json['user']['screen_name']}: {$json['text']}\n\n";
-	
+			
+			// 1/2021 do a test dump of entire tweet
+/*			
+			echo "\n\ndump:\n";
+			
+			array_walk_recursive($json, function($key,$value) {
+			  echo $value.' :'.$key.'<br>';
+			  echo "\n";
+			});
+			
+*/
+						
+			echo "\n\nplace-place_type:{$json['place']['place_type']}: \n";
+			echo "place-name:{$json['place']['name']}: \n";
+			echo "place-country:{$json['place']['country']}: \n";
+			
+			// these will be the new coordinates for lat/lon
+			echo "polygon-lat:{$json['place']['bounding_box']['coordinates'][0][0][1]}: \n";
+			echo "polygon-lon:{$json['place']['bounding_box']['coordinates'][0][0][0]}: \n";
+			
+			// you can use this language field to test for a particular language 
+			echo "lang:{$json['lang']}: \n";
+			
+
+	/*
+			// not particularly useful at this point since the city coordinates are more consistent
+		    if (isset($json["geo"])) {
+				echo "\ngeo is set!!!\n";
+			}
+			else {
+				echo "\ngeo is NOT set!!!\n";
+			}
+	*/
 			// do some cleaning up...
 			// remove URL's
 			$s = $json["text"];		// raw tweet text
@@ -164,8 +196,16 @@ $RECVPORT = '7401';
 			
 			// now get map coordinates
 			
-			$lat = $json['coordinates']['coordinates'][1];
-			$lon = $json['coordinates']['coordinates'][0];
+	//		$lat = $json['coordinates']['coordinates'][1];
+	//		$lon = $json['coordinates']['coordinates'][0];
+	//		now using coordinates of one corner of city bounding box instead of geo coord. because many tweets
+	//		are missing the geo coords
+			$lat = $json['place']['bounding_box']['coordinates'][0][0][1];
+			$lon = $json['place']['bounding_box']['coordinates'][0][0][0];
+			
+			
+			
+			
 			echo "lat: {$lat}, lon: {$lon}\n";
 			
 			// $x = lat2x($lat);
