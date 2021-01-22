@@ -7,7 +7,20 @@ Currently in the process of updating for Max8 and Mac OS Catalina (64 bit)
 So far - updated:
 
 Twitter Streaming
-Google Speech - including conversation with robots
+
+Google Speech
+
+- including conversation with robots
+
+Twitter Ruby send and receive tweets using Max
+
+=====
+
+Deprecated:
+
+Twitter curl : the IOT hosting platforms keep going out of business...
+
+=====
 
 Check this link for current status and instructions
 documentation: https://reactivemusic.net/?p=5859
