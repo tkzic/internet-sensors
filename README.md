@@ -1,9 +1,16 @@
 # internet-sensors projects
 
-May 22, 2014
+Jan 21, 2021
 
-documentation: [http://zerokidz.com/ideas/?p=5859
-](http://zerokidz.com/ideas/?p=5859)
+Currently in the process of updating for Max8 and Mac OS Catalina (64 bit)
+
+So far - updated:
+
+Twitter Streaming
+Google Speech - including conversation with robots
+
+Check this link for current status and instructions
+documentation: https://reactivemusic.net/?p=5859
 
 ---
  
@@ -19,8 +26,7 @@ Projects that use Max and Internet API's for interactive media.
 ---
 ## project index
 
-documentation: [http://zerokidz.com/ideas/?p=5859
-](http://zerokidz.com/ideas/?p=5859)
+documentation: https://reactivemusic.net/?p=5859
 
 
 * Twitter streaming API in Max
@@ -64,6 +70,10 @@ The API's used in the projects change often. If you find problems or have ideas 
 ---
 
 ## Revision history
+
+Jan 21, 2021
+
+working on long overdue updates to everything
 
 May 22, 2014 - 
 
