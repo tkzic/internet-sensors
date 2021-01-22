@@ -19,15 +19,28 @@ require 'twitter'
 #
 # Twitter gem docs at: 
 
+#
+# to get your twitter id, goto https://tweeterid.com/
+
+
+
+#
+#  updated variable names for tokens 1/22/2021
+#
 twitterClient = Twitter::Streaming::Client.new do |config|
-# Twitter.configure do |config|
-  config.consumer_key = "mqQtoYh16Ro77wy3reBK7QQ"       
-  config.consumer_secret = "X0KexjlK453BDW9ZjMSR1EztapZfATCQqWCc5fXVJH2pE"      
-  config.oauth_token = "205589709-5k8fy4FIQV87f6r3KkLGRDnewiU7GSj6ABMA6i2La84c"        
-  config.oauth_token_secret = "LNARAeo386oN2vkklklPUrYf2dihQ5D8YYkm8dYvEs68M"  
+  config.consumer_key = "mqQtoYh16Ro77wy3BK7QQ"       
+  config.consumer_secret = "X0KexjlKBDW9ZjMSR1EztapZfATCQqWCc5fXVJH2pE"      
+  config.access_token = "205589709-5k8fy4FIQVr3KkLGRDnewiU7GSj6ABMA6i2La84c"        
+  config.access_token_secret = "LNARAeooN2vkklklPUrYf2dihQ5D8YYkm8dYvEs68M"  
 end
 
+
+
 ###################################################################
+
+
+
+
 
 # initialize OSC
 #
@@ -41,20 +54,38 @@ end
 # then send them off to Max
 
 puts "send something from Twitter..."
-twitterClient.user do |object|
-  case object
-  when Twitter::Tweet
-    puts "It's a tweet!"
-    puts object.text
-    # send to Max
-    @client.send( OSC::Message.new( "/tweet", ":#{object.text}" ))
-  when Twitter::DirectMessage
-    puts "It's a direct message!"
-    puts object.text
-#  this causes ruby error    
-#  when Twitter::Streaming::StallWarning
-#    warn "Falling behind!"
 
-  end
+# this filter : follow method was the only workaround I could find that would get tweets from
+# particular twitter user. The number is the twitter-id
+#
+# you can put in a list of id's separated by commas
+#
+
+twitterClient.filter(follow: "205589709") do |tweet|
+  puts "It's a tweet!"
+  puts tweet.text
+  # send to Max
+  @client.send( OSC::Message.new( "/tweet", ":#{tweet.text}" ))
 end
+
+
+# this was the old way that stopped working in 2021
+
+
+#twitterClient.user do |object|
+#  case object
+#  when Twitter::Tweet
+#    puts "It's a tweet!"
+#    puts object.text
+#    # send to Max
+#    @client.send( OSC::Message.new( "/tweet", ":#{object.text}" ))
+#  when Twitter::DirectMessage
+#    puts "It's a direct message!"
+#    puts object.text
+#
+#  end
+#end
+
+
+puts "all done"
 
