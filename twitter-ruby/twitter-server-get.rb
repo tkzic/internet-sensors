@@ -28,10 +28,10 @@ require 'twitter'
 #  updated variable names for tokens 1/22/2021
 #
 twitterClient = Twitter::Streaming::Client.new do |config|
-  config.consumer_key = "mqQtoYh16R3BK7QQ"       
-  config.consumer_secret = "X0KexjlKBDW9ZEztapZfATCQqWCc5fXVJH2pE"      
-  config.access_token = "205589709-5k8fr3KkLGRDnewiU7GSj6ABMA6i2La84c"        
-  config.access_token_secret = "LNARAeooNlPUrYf2dihQ5D8YYkm8dYvEs68M"  
+  config.consumer_key = ""       
+  config.consumer_secret = ""      
+  config.access_token = ""       
+  config.access_token_secret = ""  
 end
 
 
