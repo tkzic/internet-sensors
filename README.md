@@ -1,6 +1,6 @@
 # internet-sensors projects
 
-Jan 21, 2021
+Jan 25, 2021
 
 Currently in the process of updating for Max8 and Mac OS Catalina (64 bit)
 
@@ -13,6 +13,8 @@ Google Speech
 - including conversation with robots
 
 Twitter Ruby send and receive tweets using Max
+
+Bird calls from xeno-canto
 
 =====
 
