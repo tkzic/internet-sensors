@@ -20,9 +20,9 @@ APIKEY = 'sqhdPxtFo5GXTgyIVE5I4B47LVAcZkxn'   # put your mashape API-KEY here
 # initialize http: request (patron) 
 #
 sess = Patron::Session.new
-sess.base_url = "https://igor-zachetly-ping-uin.p.mashape.com/pinguin.php"
+sess.base_url = "https://igor-zachetly-ping-uin.p.rapidapi.com/pinguin.php"
 sess.timeout = 15
-sess.headers['X-Mashape-Authorization'] = APIKEY 
+sess.headers['X-Rapidapi-Authorization'] = APIKEY 
 sess.enable_debug "./google.debug"
 
 #
@@ -34,7 +34,7 @@ sess.enable_debug "./google.debug"
 # add methods to server 
 
 # callback for osc message [xping/ n domain] 
-# runs http: request with mashape API to get ping data for domain
+# runs http: request with rapidapi API to get ping data for domain
 # send osc message [/time n pingDuration] back to client
 #
 @server.add_method '/xping' do | message |
