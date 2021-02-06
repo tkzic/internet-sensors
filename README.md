@@ -1,6 +1,6 @@
 # internet-sensors projects
 
-Jan 25, 2021
+Feb 6, 2021
 
 Currently in the process of updating for Max8 and Mac OS Catalina (64 bit)
 
@@ -15,6 +15,8 @@ Google Speech
 Twitter Ruby send and receive tweets using Max
 
 Bird calls from xeno-canto
+
+Ping: (use sound-of-a-new-machine3.maxpat)
 
 =====
 
