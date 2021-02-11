@@ -7,24 +7,19 @@ Currently in the process of updating for Max8 and Mac OS Catalina (64 bit)
 So far - updated:
 
 Twitter Streaming
-
-Google Speech
-
-- including conversation with robots
-
+Google Speech - including conversation with robots
 Twitter Ruby send and receive tweets using Max
-
 Bird calls from xeno-canto
-
 Ping: (use sound-of-a-new-machine3.maxpat)
-
 Spotify segment analysis synth: replaces deprecated echo nest API
+Irish train API - temporary fix - removing deprecated web sockets code
+
 
 =====
 
-Deprecated:
+Discontinued:
 
-Twitter curl : the IOT hosting platforms keep going out of business...
+Twitter curl - the IOT hosting platforms keep going out of business...
 
 =====
 
