@@ -12,7 +12,7 @@ Twitter Ruby send and receive tweets using Max
 Bird calls from xeno-canto
 Ping: (use sound-of-a-new-machine3.maxpat)
 Spotify segment analysis synth: replaces deprecated echo nest API
-Irish train API - temporary fix - removing deprecated web sockets code
+Irish train API
 
 
 =====
