@@ -20,6 +20,11 @@ var app = require('http').createServer(handler);
 // var io = require('socket.io').listen(app);
 var fs = require('fs');
 
+const WebSocket = require('ws');
+const server = new WebSocket.Server({
+  port: 8090
+});
+
 
 
 // stuff specific to trains
@@ -145,6 +150,32 @@ function handler (req, res) {
 		    res.end(data);
 		});
 }
+
+
+// this is the websocket stuff that is being updated to ws
+//
+
+
+let sockets = [];
+server.on('connection', function(socket) {
+  sockets.push(socket);
+  console.log("new webSocket connection on port 8090...");
+
+  // When you receive a message, send that message to every socket.
+  socket.on('message', function(msg) {
+    sockets.forEach(s => s.send(msg));
+	console.log("incoming message: " + msg);
+	sendMapPointToMax(msg, "giraffe");  // send map data point to max patch
+  });
+
+  // When a socket closes, or disconnects, remove it from the array.
+  socket.on('close', function() {
+    sockets = sockets.filter(s => s !== socket);
+	console.log("webSocket is closed...")
+  });
+});
+
+
 // yes, this was stolen from a book on how to make a node chat server
 // 
 //  io.sockets.on('connection', function (socket) {
