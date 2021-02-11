@@ -1,6 +1,6 @@
 # internet-sensors projects
 
-Feb 6, 2021
+Feb 11, 2021
 
 Currently in the process of updating for Max8 and Mac OS Catalina (64 bit)
 
@@ -17,6 +17,8 @@ Twitter Ruby send and receive tweets using Max
 Bird calls from xeno-canto
 
 Ping: (use sound-of-a-new-machine3.maxpat)
+
+Spotify segment analysis synth: replaces deprecated echo nest API
 
 =====
 
