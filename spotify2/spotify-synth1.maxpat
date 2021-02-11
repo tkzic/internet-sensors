@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1036.0, 560.0 ],
+		"rect" : [ 34.0, 79.0, 1053.0, 560.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -176,6 +176,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -626,8 +628,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 354.536621000000025, 499.0, 51.0, 22.0 ],
-					"text" : "/rate $1"
+					"patching_rect" : [ 354.536621000000025, 499.0, 46.0, 22.0 ],
+					"text" : "rate $1"
 				}
 
 			}
@@ -841,7 +843,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 65.5, 118.5, 117.0, 22.0 ],
-					"text" : "witches and devils"
+					"text" : "come fly with me"
 				}
 
 			}
@@ -927,7 +929,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 65.5, 313.5, 117.0, 22.0 ],
-					"text" : "albert ayler"
+					"text" : "frank sinatra"
 				}
 
 			}
