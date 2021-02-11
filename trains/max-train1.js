@@ -16,9 +16,9 @@
 
 // note: this program doesn't handle errors gracefully, for example, unavailable services, blocking, bad data, etc.,
 
-var app = require('http').createServer(handler)
-, io = require('socket.io').listen(app)
-,fs = require('fs');
+var app = require('http').createServer(handler);
+// var io = require('socket.io').listen(app);
+var fs = require('fs');
 
 
 
@@ -147,55 +147,55 @@ function handler (req, res) {
 }
 // yes, this was stolen from a book on how to make a node chat server
 // 
-io.sockets.on('connection', function (socket) {
+//  io.sockets.on('connection', function (socket) {
 	
 	// 
 	
 	// check for  max messages and pass back to user
 	// this is some sketchy code
-	var maxTimer = setInterval(function() {
-		if(socket.username != 'undefined') {
-			if(maxMessage[socket.username] != '') {
-				socket.emit('chat', 'Max', 'Message: ' + maxMessage[socket.username]);
-				// socket.volatile.emit(maxMessage[socket.username]);
-				maxMessage[socket.username] = ''; // clear message
-			}
-		}
-	}, 1000);
+//	var maxTimer = setInterval(function() {
+//		if(socket.username != 'undefined') {
+//			if(maxMessage[socket.username] != '') {
+//				socket.emit('chat', 'Max', 'Message: ' + maxMessage[socket.username]);
+				
+//				maxMessage[socket.username] = ''; // clear message
+//			}
+//		}
+//	}, 1000);
 	
 
 
 
 
 	// new client has connected via http
-    socket.on('addme',function(username) {
-		socket.username = username;
+//    socket.on('addme',function(username) {
+//		socket.username = username;
 		// acknowledge connection
-		socket.emit('chat', 'SERVER', 'You have connected');
+//		socket.emit('chat', 'SERVER', 'You have connected');
 		// broadcast to other connected users
-		socket.broadcast.emit('chat', 'SERVER', username + ' is on deck');
+//		socket.broadcast.emit('chat', 'SERVER', username + ' is on deck');
 		// notify max about the new user
-		connectUserToMax(username);
+//		connectUserToMax(username);
 		
-    });
+  //  });
 
 
 
 	// client is sending map point data which will be forwared to Max
-    socket.on('sendchat', function(data) {
-	io.sockets.emit('chat', socket.username, data);
-	sendMapPointToMax(data,socket.username);
-    });
+//    socket.on('sendchat', function(data) {
+//	io.sockets.emit('chat', socket.username, data);
+//	sendMapPointToMax(data,socket.username);
+  //  });
 
 	// client has disconnected
-    socket.on('disconnect', function() {
-	io.sockets.emit('chat', 'SERVER', socket.username + ' has left the building');
+//    socket.on('disconnect', function() {
+//	io.sockets.emit('chat', 'SERVER', socket.username + ' has left the building');
 	// notify max about the former user
-	disconnectUserToMax(socket.username);
-	clearInterval(maxTimer);	// stop waiting to here anything from max
-    });
+//	disconnectUserToMax(socket.username);
+//	clearInterval(maxTimer);	// stop waiting to here anything from max
+ //  });
 
-});
+ //});
 
 
 // end of http stuff ////
