@@ -2,9 +2,10 @@
 
 Feb 13, 2021
 
-Currently in the process of updating for Max8 and Mac OS Catalina (64 bit)
+Currently in the process of updating for Max8 and Mac OS Catalina (64 bit) - If a project isn't on this list of current updates, then it probably doesn't work.
 
 So far - updated:
+----------------
 
 Twitter Streaming
 
@@ -26,10 +27,17 @@ Soundcloud API
 =====
 
 Discontinued:
+-------------
 
 Twitter curl - the IOT hosting platforms keep going out of business...
 
 AR-Drone - I have no way of testing at this time
+
+Likely to be discontinued:
+--------------------------
+
+Google maps API - hoping to replace with open street map (OSM)
+
 
 =====
 
