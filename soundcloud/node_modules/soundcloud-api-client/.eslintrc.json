@@ -1,0 +1,32 @@
+{
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module",
+        "impliedStrict": true
+    },
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "rules": {
+        "array-bracket-spacing": [ "warn", "always", { "objectsInArrays": false } ],
+        "comma-spacing": [ "warn", { "before": false, "after": true } ],
+        "eol-last": [ "warn", "always" ],
+        "indent": [ "warn", 4 ],
+        "key-spacing": [ "warn", { "mode" : "strict" } ],
+        "linebreak-style": [ "warn", "unix" ],
+        "no-console": "off",
+        "no-mixed-spaces-and-tabs": "warn",
+        "no-multi-spaces": "warn",
+        "no-multiple-empty-lines": [ "warn", { "max": 1 } ],
+        "no-trailing-spaces": [ "warn" ],
+        "prefer-const": [ "error" ],
+        "semi": [ "warn", "always" ],
+        "no-unexpected-multiline": "warn",
+        "object-curly-spacing": [ "warn", "always" ],
+        "operator-linebreak": "off",
+        "space-before-function-paren": [ "warn", "always" ],
+        "valid-jsdoc": [ "warn", { "requireReturnDescription": false, "requireParamDescription" : false } ]
+    }
+}
