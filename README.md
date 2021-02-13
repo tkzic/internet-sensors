@@ -29,6 +29,8 @@ Discontinued:
 
 Twitter curl - the IOT hosting platforms keep going out of business...
 
+AR-Drone - I have no way of testing at this time
+
 =====
 
 Check this link for current status and instructions
